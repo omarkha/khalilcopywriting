@@ -151,11 +151,16 @@ code {
 u {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
 u li {
   align-self: flex-start;
   padding: 5px;
+}
+
+.copy h3 {
+  color: green;
 }
 
 .copy form {
@@ -168,7 +173,7 @@ u li {
   padding: 34px;
   border: 1px solid white;
   width: fit-content;
-  background: linear-gradient(rgba(155, 155, 155, 0.38), rgba(25, 25, 25, 1));
+  background: linear-gradient(rgba(15, 25, 155, 0.38), rgba(25, 25, 25, 1));
   border-radius: 34px;
 }
 
@@ -229,4 +234,14 @@ footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+article img {
+  margin: 21px;
+  width: 68%;
+}
+
+.certificate {
+  width: 144px;
+  margin: 55px;
 }

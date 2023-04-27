@@ -1,6 +1,8 @@
 import React from "react";
 import mypicture from "../media/mypic.jpg";
-
+import survey from "../media/survey.jpg";
+import awai from "../media/awai.jpg";
+import alison from "../media/alison.avif";
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -62,48 +64,56 @@ const Homepage = () => {
               high moral standard.
               <br />
               <br />
-              <p className="h1 text-dark">
+              <article>
+                <img src={survey} alt="survey picture" />
+                <p className="h1 text-dark">
+                  <h3 className="subhead h1 text-primary">
+                    Experienced Marketing Professional
+                  </h3>
+                  <br />I moved from NY to Coloado, in the year 2016. I was
+                  working as a door-to-door canvasser for a Colorado marketing
+                  company called Black Diamond Outreach. Everyday, I had the
+                  pleasure of <strong>interviewing up to a 100 people,</strong>{" "}
+                  giving them surveys and collecting their names and email
+                  addresses.
+                  <br />
+                  <br /> When I started working I wanted to do a good job and
+                  prove my merit, so I was{" "}
+                  <strong>
+                    Awarded Best Employee of the Day for 3 days in a row
+                  </strong>
+                  . I finally took my foot off the peddle on the fourth day and
+                  let others get awarded as well. <br />
+                  <br />
+                  <strong>
+                    With this experience and my ability to interview people
+                    effectively, I can provide you with excellent testimonials,
+                    surveys and leads. That way you get knowledge on your market
+                    and business so you improve your business and achieve better
+                    results.
+                  </strong>
+                </p>
+              </article>
+              <br />
+              <p>
                 <h3 className="subhead h1 text-primary">
-                  Experienced Marketing Professional
-                </h3>
-                <br />I moved from NY to Coloado, in the year 2016. I was
-                working as a door-to-door canvasser for a Colorado marketing
-                company called Black Diamond Outreach. Everyday, I had the
-                pleasure of <strong>interviewing up to a 100 people,</strong>{" "}
-                giving them surveys and collecting their names and email
-                addresses.
+                  Experienced In Team Environments
+                </h3>{" "}
                 <br />
-                <br /> When I started working I wanted to do a good job and
-                prove my merit, so I was{" "}
-                <strong>
-                  Awarded Best Employee of the Day for 3 days in a row
-                </strong>
-                . I finally took my foot off the peddle on the fourth day and
-                let others get awarded as well. <br />
+                My name is Omar Khalil and I’m a Copywriter, Software Engineer
+                and an Entrepreneur from Upstate New York. I have extensive
+                experience working and collaborating in team environments. From
+                working in a team of salesmen for high-end Vacuum Cleaners when
+                I was 18 years old. To collaborating on software engineering
+                projects with team members. <br />
                 <br />
-                <strong>
-                  With this experience and my ability to interview people
-                  effectively, I can provide you with excellent testimonials,
-                  surveys and leads. That way you get knowledge on your market
-                  and business so you improve your business and achieve better
-                  results.
-                </strong>
+                You can be confident that you're working with a professional who
+                can properly communicate and has good people skills; Someone you
+                can be comfortable working with.
+                <br />
+                <br />
               </p>
-              <br />
-              <h3 className="subhead h1 text-primary">
-                Experienced In Team Environments
-              </h3>{" "}
-              <br />
-              My name is Omar Khalil. I’m a Copywriter, Software Engineer and an
-              Entrepreneur from Upstate New York. And I have extensive
-              experience working and collaborating in team environments. Such as
-              working in a team of salesmen for high-end Vacuum Cleaners when I
-              was 18 years old. You can be confident that you're working with a
-              professional who can properly communicate and has good people
-              skills; Someone you can be comfortable talking with periodically.
-              <br />
-              <br />
-              <div className="quote text-light">
+              <div className="quote text-warning">
                 “My experience with Omar in my work as a restaurant owner has
                 been full of achievement. He was very helpful in my marketing
                 efforts where he took professional pictures of the food and the
@@ -115,6 +125,16 @@ const Homepage = () => {
                 </span>
               </div>{" "}
             </p>
+            <img
+              className="certificate"
+              src={alison}
+              alt="alison dot com certificate"
+            />{" "}
+            <img
+              className="certificate"
+              src={awai}
+              alt="Americans writers and artists institute copywriting certificate"
+            />
             <p className="h1 text-dark">
               <br />
               <h3 className="subhead h1 text-primary">
@@ -127,12 +147,8 @@ const Homepage = () => {
               <br />
               <br />
               As a copywriter I have completed over 5 courses on Copywriting and
-              Marketing. And I am certified by Alison.com for partaking in a
-              course on the basics of copywriting.
-              <br />
-              <br />
-              I’ve also received my certification from AWAI as a copywriter in
-              the year 2023.
+              Marketing. And I am certified by AWAI and Alison.com for partaking
+              in Copywriting courses.
               <br />
               <br />
               The most notable courses that I’ve completed are:
@@ -241,27 +257,29 @@ const Homepage = () => {
             <h3 className="subhead h1 text-primary">All Budgets Accepted</h3>
             <br />
             <p className="h1 text-dark">
-              I can work with all kinds of budgets. The most important thing is
-              that you have an interesting product or service. If not we can fix
-              that too!
-              <br />
-              <br />
               Many clients are taking advantage of my low-cost services. So
               enter your name and email address to set up an appointment as soon
               as possible.
               <br />
               <br />
+              I can work with all kinds of budgets. The most important thing is
+              that you have an interesting product or service. If not we can fix
+              that too!
+              <br />
+              <br />
               After submitting your name and email address, I will immediately
               reach back to you with a Questionnaire that helps me understand
-              what your business is about, and how we can do to increase its
-              success. Then we can set up an appointment and I will personally
-              get back to you in order to figure it out either with a phone
-              call, video call, or any other communication method you prefer.
+              what your business is about, so that we can increase your business
+              success. <br />
+              <br />
+              Then we can set up an appointment and I will personally get back
+              to you in order to figure it out either with a phone call, video
+              call, or any other communication method you prefer.
             </p>
             <br />
           </div>
           <form>
-            <h6 className="subhead h6 text-dark">
+            <h6 className="subhead h6 text-light">
               <strong>Start Converting Prospects</strong> <br />
               Start by answering a few questions and I'll reply to you as soon
               as possible. <br />
