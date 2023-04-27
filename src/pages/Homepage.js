@@ -50,11 +50,11 @@ const Homepage = () => {
               sales yet. <br />
               <br />
               Aside from that, as a new business owner you simultaneously
-              struggle with lack of time, ineffective web presence, and a{" "}
+              struggle with a lack of time, ineffective web presence, and a{" "}
               <strong>lack of funds.</strong> <br />
               <br />
               Get someone to help you launch your business and get revenue
-              coming in so that your business can grow.
+              coming in so you can finance and grow your business.
             </p>
             <br />
             <article>
@@ -278,17 +278,31 @@ const Homepage = () => {
             </p>
             <br />
           </div>
-          <form>
-            <h6 className="subhead text-warning h6">
-              <strong>Start Converting Prospects</strong> <br />
-              Start by answering a few questions and I'll reply to you as soon
-              as possible. <br />
+          <div>
+            <h6 className="subhead text-dark h6">
+              <strong>Start Converting Prospects </strong> <br />
+              <br />
+              Your First Step is to answer a few questions about your business
+              idea.
+              <br />
+              <br /> I'll then try to figure out a way to build a mutually
+              beneficial business relationship between us. <br />
+              <br />
               Fill Out This Form and Click on the Submit Button
             </h6>
-            <h5 className="subhead h6 text-info">
-              Get a <strong>FREE consultaton with me</strong>
+
+            <h5 className="subhead h6 text-dark">
+              If you sign up before <u>June, 1st 2023</u>
               <br />
-              when you sign up before <u>June, 1st 2023</u>
+              You can schedule a <strong>FREE consultaton with me</strong>{" "}
+              discussing a plan of action.
+              <br />
+            </h5>
+          </div>
+          <form>
+            <h5 className="subhead h5 text-warning">
+              Act Fast And Reserve an Appointment <br />
+              before My schedule is fully booked
             </h5>
             <input type="text" placeholder="Your Full Name" />
             <input type="text" placeholder="Your Email Address" />
