@@ -155,36 +155,59 @@ const Homepage = () => {
             <p className="h1 text-dark">
               <h3 className="subhead h1">Well-Read On Copywriting</h3> <br />
               Most copywriters fail because they lack dedication, knowledge and
-              passion. In the past 4 years I’ve read just about 49 books. About
-              15 of those books were on Copywriting, some others were about
-              Marketing in general and others were mostly self-help books.
+              passion. In the past 4 years{" "}
+              <u>
+                <strong>I’ve read</strong> about <strong>49 books.</strong>
+              </u>{" "}
+              About 15 of those books were <strong>on Copywriting</strong>, some
+              others were about <strong>Marketing</strong> in general and others
+              were mostly self-help books.
               <br />
               <br /> You can expect me to apply my knowledge of the following
               books in writing your copy:
               <br />
               <br />
               <ul>
-                <li>Influence by Robert Cialdini</li>
-                <li>Tested Advertising Methods by John Caples</li>
-                <li>The Adweek Copywrting Handbook by Joseph Sugarman</li>
-                <li>The Ultimate Sales Letter by Dan Kennedy</li>
-                <li>Scientific Advertising by Claude Hopkins</li>
-                <li>Cashvertising by Drew Whitman</li>
-                <li>Save The Cat by Blake Snyder</li>
-                <li>Breakthrough Advertising by Eugene Schwartz</li>
-                <li>and more.</li>
+                <li>
+                  <strong>Influence</strong> by Robert Cialdini
+                </li>
+                <li>
+                  <strong>Tested Advertising Methods</strong> by John Caples
+                </li>
+                <li>
+                  <strong>The Adweek Copywrting Handbook </strong>by Joseph
+                  Sugarman
+                </li>
+                <li>
+                  <strong>The Ultimate Sales Letter</strong> by Dan Kennedy
+                </li>
+                <li>
+                  <strong>Scientific Advertising by</strong> Claude Hopkins
+                </li>
+                <li>
+                  <strong>Cashvertising</strong> by Drew Whitman
+                </li>
+                <li>
+                  <strong>Save The Cat</strong> by Blake Snyder
+                </li>
+                <li>
+                  <strong>Breakthrough Advertising</strong> by Eugene Schwartz
+                </li>
+                <li>
+                  <strong>and more.</strong>
+                </li>
               </ul>
             </p>
             <p className="h1 text-dark">
               <br />
               <br />
               <h3 className="subhead h1 ">Tech Savvy Software Developer</h3>
-              <br />
-              I understand technology. I’ve been software engineering since 14
-              years old. And,In the year 2022, I’ve completed General Assembly’s
-              Software Engineering Bootcamp. I have a portfolio website for web
-              applications I’ve developed. I consistently learn, practice and
-              improve my software development skills.
+              <br />I understand technology. I’ve been software engineering
+              since 14 years old. And,In the year 2022, I’ve completed General
+              Assembly’s <u>Software Engineering Bootcamp.</u> I have a{" "}
+              <a href="#">portfolio website</a> for web applications I’ve
+              developed. I consistently learn, practice and improve my software
+              development skills.
               <br />
               <br />
               Being a Full Stack Software Engineer, I can develop for the
@@ -216,15 +239,16 @@ const Homepage = () => {
                 Bilingual People Express Themselves Better
               </h3>
               <br />
-              Some might think that being from another country is a weakness.
-              But as far as language goes, I read, write and speak English
-              fluently. Yet, I’d argue that being bilingual comes with a bunch
-              of unique strengths that supersedes any potential weakness. <br />
-              <br />I have more tools for self-expression being a bilingual
-              person. And With these unique strengths I’d like to differentiate
-              you from the competition, grabbing more attention, inspiring more
-              interest, building more desire and getting prospects to take
-              action more often.
+              I read, write and speak English fluently. Not only English but
+              also the Arabic language. It might be assumed that non-native
+              English speakers are at a disadvantage. Yet, research shows that
+              being bilingual comes with a bunch of unique strengths. <br />
+              <br />
+              bilingual individuals have been found to outperform monolinguals
+              in problem solving and perceptual focusing. With more tools for
+              self-expression and some unique capabilities, I can write
+              immaculate copy that grabs more attention, inspires more interest,
+              builds more desire and gets more prospects to take action.
             </p>
             <br />
           </div>
@@ -255,18 +279,23 @@ const Homepage = () => {
             <br />
           </div>
           <form>
-            <h6 className="subhead h6">
+            <h6 className="subhead text-warning h6">
               <strong>Start Converting Prospects</strong> <br />
               Start by answering a few questions and I'll reply to you as soon
               as possible. <br />
               Fill Out This Form and Click on the Submit Button
             </h6>
+            <h5 className="subhead h6 text-info">
+              Get a <strong>FREE consultaton with me</strong>
+              <br />
+              when you sign up before <u>June, 1st 2023</u>
+            </h5>
             <input type="text" placeholder="Your Full Name" />
             <input type="text" placeholder="Your Email Address" />
             <button type="submit" className="button-2">
               Send Questionnaire
             </button>
-            <h8 className=" h6 text-warning">Your privacy is protected.</h8>
+            <h8 className=" h6 text-dark">Your privacy is protected.</h8>
           </form>
           <br />
           <br />

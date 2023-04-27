@@ -17,6 +17,9 @@ code {
   align-items: end;
   justify-content: end;
 }
+a {
+  text-decoration: none;
+}
 
 .navbar-brand {
   display: flex;
@@ -159,7 +162,8 @@ code {
 ul {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
+
+  list-style-type: circle;
 }
 
 ul li {
@@ -177,7 +181,7 @@ ul li {
   padding: 34px;
   border: 1px solid white;
   width: fit-content;
-  background: linear-gradient(rgba(15, 25, 155, 0.38), rgba(25, 25, 25, 1));
+  background: linear-gradient(rgba(15, 25, 25, 1), rgba(25, 25, 25, 0.38));
   border-radius: 34px;
 }
 
