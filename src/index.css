@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(40, 63, 89);
 }
 
 code {
@@ -19,9 +19,17 @@ code {
 }
 
 .navbar-brand {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
   font-size: 21px;
 }
 
+.navlogo {
+  width: 34px;
+  height: 34px;
+  background-size: contain;
+}
 .navbar {
   border-bottom: 2px solid black;
 }
@@ -31,7 +39,7 @@ code {
   border-top: 0;
   border-bottom: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: rgb(215, 200, 200);
 }
 
 .mypicture {
@@ -148,19 +156,15 @@ code {
   margin: 55px auto;
 }
 
-u {
+ul {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
 
-u li {
+ul li {
   align-self: flex-start;
   padding: 5px;
-}
-
-.copy h3 {
-  color: green;
 }
 
 .copy form {
@@ -182,6 +186,10 @@ button[type="submit"] {
   color: yellow;
   border: 1px solid rgb(40, 40, 40);
   border-radius: 5px;
+}
+
+h2 {
+  color: rgb(0, 15, 101);
 }
 
 button[type="submit"]:hover {
@@ -238,7 +246,7 @@ footer ul {
 
 article img {
   margin: 21px;
-  width: 68%;
+  width: 38%;
 }
 
 .certificate {

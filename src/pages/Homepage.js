@@ -30,16 +30,16 @@ const Homepage = () => {
         </section>
         <section className="copy">
           <div>
-            <h2 className="headline h1 text-dark">
-              Make the most out of your budget with copywriting that brings
-              results...
+            <h2 className="headline h1">
+              knowledgeable and experienced, I'm here to help you realize
+              financial freedom
             </h2>
             <br />
             <br />
-            <h3>
-              ...knowledgeable and experienced, I'm here to help you realize
-              financial freedom
-            </h3>
+            <h2>
+              Make the most out of your budget with copywriting that brings
+              results...
+            </h2>
             <br />
             <br />
             <br />
@@ -57,74 +57,62 @@ const Homepage = () => {
               coming in so that your business can grow.
             </p>
             <br />
-            <p className="h1 text-dark">
-              Imagine having a Marketing professional who is dedicated to
-              helping your business succeed like his own career depends on it.
-              Someone who’s got excellent people skills, empathetic, and has a
-              high moral standard.
-              <br />
-              <br />
-              <article>
-                <img src={survey} alt="survey picture" />
-                <p className="h1 text-dark">
-                  <h3 className="subhead h1 text-primary">
-                    Experienced Marketing Professional
-                  </h3>
-                  <br />I moved from NY to Coloado, in the year 2016. I was
-                  working as a door-to-door canvasser for a Colorado marketing
-                  company called Black Diamond Outreach. Everyday, I had the
-                  pleasure of <strong>interviewing up to a 100 people,</strong>{" "}
-                  giving them surveys and collecting their names and email
-                  addresses.
-                  <br />
-                  <br /> When I started working I wanted to do a good job and
-                  prove my merit, so I was{" "}
-                  <strong>
-                    Awarded Best Employee of the Day for 3 days in a row
-                  </strong>
-                  . I finally took my foot off the peddle on the fourth day and
-                  let others get awarded as well. <br />
-                  <br />
-                  <strong>
-                    With this experience and my ability to interview people
-                    effectively, I can provide you with excellent testimonials,
-                    surveys and leads. That way you get knowledge on your market
-                    and business so you improve your business and achieve better
-                    results.
-                  </strong>
-                </p>
-              </article>
-              <br />
-              <p>
-                <h3 className="subhead h1 text-primary">
-                  Experienced In Team Environments
-                </h3>{" "}
+            <article>
+              <img src={survey} alt="survey picture" />
+              <p className="h1 text-dark">
+                <h3 className="subhead h1">
+                  Experienced Marketing Professional
+                </h3>
+                <br />I moved from NY to Colorado, in the year 2016. I was
+                working as a door-to-door canvasser for a Colorado marketing
+                company called Black Diamond Outreach. Everyday, I had the
+                pleasure of <strong>interviewing up to a 100 people,</strong>{" "}
+                giving them surveys and collecting their names and email
+                addresses.
                 <br />
-                My name is Omar Khalil and I’m a Copywriter, Software Engineer
-                and an Entrepreneur from Upstate New York. I have extensive
-                experience working and collaborating in team environments. From
-                working in a team of salesmen for high-end Vacuum Cleaners when
-                I was 18 years old. To collaborating on software engineering
-                projects with team members. <br />
+                <br /> When I started working I wanted to do a good job and
+                prove my merit, so I was{" "}
+                <strong>
+                  Awarded Best Employee of the Day for 3 days in a row
+                </strong>
+                . I finally took my foot off the peddle on the fourth day and
+                let others get awarded as well. <br />
                 <br />
-                You can be confident that you're working with a professional who
-                can properly communicate and has good people skills; Someone you
-                can be comfortable working with.
-                <br />
-                <br />
+                <strong>
+                  With my marketing experience and ability to interview people
+                  effectively, I can provide you with excellent testimonials,
+                  surveys and leads. That way you get knowledge on your market
+                  and business so you improve your business and achieve better
+                  results.
+                </strong>
               </p>
-              <div className="quote text-warning">
-                “My experience with Omar in my work as a restaurant owner has
-                been full of achievement. He was very helpful in my marketing
-                efforts where he took professional pictures of the food and the
-                restaurant. I’ve noticed that Omar helps the business owner
-                reach his/her customers in an excellent way and easily.“
-                <span className="text-info">
-                  {" "}
-                  - Amal A. Maseer, New Paltz, NY
-                </span>
-              </div>{" "}
+            </article>
+            <br />
+            <p className="h1 text-dark">
+              <h3 className="subhead h1 ">A Great Team Player</h3> <br />
+              I have extensive experience working in team environments and
+              collaborating with team members regularly. From when I was a
+              salesman in a team for high-end Vacuum Cleaners at the age of 18
+              years old.. To collaborating on software engineering projects with
+              team members recently. <br />
+              <br />
+              You can be confident that you're working with a professional who
+              can properly communicate and has good people skills; Someone you
+              can be comfortable working with.
+              <br />
+              <br />
             </p>
+            <div className="quote text-warning">
+              “My experience with Omar in my work as a restaurant owner has been
+              full of achievement. He was very helpful in my marketing efforts
+              where he took professional pictures of the food and the
+              restaurant. I’ve noticed that Omar helps the business owner reach
+              his/her customers in an excellent way and easily.“
+              <span className="text-info">
+                {" "}
+                - Amal A. Maseer, New Paltz, NY
+              </span>
+            </div>{" "}
             <img
               className="certificate"
               src={alison}
@@ -137,10 +125,7 @@ const Homepage = () => {
             />
             <p className="h1 text-dark">
               <br />
-              <h3 className="subhead h1 text-primary">
-                Taught and Certified
-              </h3>{" "}
-              <br />
+              <h3 className="subhead h1">Taught and Certified</h3> <br />
               It’s great to read the best copywriting books in the market. But
               knowing how to put this information to practice is the most
               important thing.
@@ -154,7 +139,7 @@ const Homepage = () => {
               The most notable courses that I’ve completed are:
               <br />
               <br />
-              <u>
+              <ul>
                 <li>AWAI Copywriting Method</li>
                 <li>
                   Basic Concepts and Techniques For Copywriting by Marcia Yudkin
@@ -164,25 +149,21 @@ const Homepage = () => {
                   Advanced Copywriting Skills and Techniques by Marcia Yudkin
                 </li>
                 <li>Kopywriting Korse by Neville Medhora</li>
-              </u>
+              </ul>
             </p>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1 text-primary">
-                Well-Read On Copywriting
-              </h3>{" "}
-              <br />
+              <h3 className="subhead h1">Well-Read On Copywriting</h3> <br />
               Most copywriters fail because they lack dedication, knowledge and
               passion. In the past 4 years I’ve read just about 49 books. About
-              15 of those books were directly on the topic of Copywriting, some
-              others were about Marketing in general and others were mostly
-              self-help books.
+              15 of those books were on Copywriting, some others were about
+              Marketing in general and others were mostly self-help books.
               <br />
               <br /> You can expect me to apply my knowledge of the following
               books in writing your copy:
               <br />
               <br />
-              <u>
+              <ul>
                 <li>Influence by Robert Cialdini</li>
                 <li>Tested Advertising Methods by John Caples</li>
                 <li>The Adweek Copywrting Handbook by Joseph Sugarman</li>
@@ -192,14 +173,12 @@ const Homepage = () => {
                 <li>Save The Cat by Blake Snyder</li>
                 <li>Breakthrough Advertising by Eugene Schwartz</li>
                 <li>and more.</li>
-              </u>
+              </ul>
             </p>
-            <p>
+            <p className="h1 text-dark">
               <br />
               <br />
-              <h3 className="subhead h1 text-primary">
-                Tech Savvy Software Developer
-              </h3>
+              <h3 className="subhead h1 ">Tech Savvy Software Developer</h3>
               <br />
               I understand technology. I’ve been software engineering since 14
               years old. And,In the year 2022, I’ve completed General Assembly’s
@@ -216,10 +195,7 @@ const Homepage = () => {
             </p>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1 text-primary">
-                Entrepreneurial Awareness
-              </h3>{" "}
-              <br />
+              <h3 className="subhead h1 ">Entrepreneurial Awareness</h3> <br />
               I mentioned that I’m also an entrepreneur. But ever since I found
               my calling, I’ve been very ambitious, optimistic, positive and
               driven in the years since deciding to be my own boss. I have 100s
@@ -236,7 +212,7 @@ const Homepage = () => {
             <br />
             <br />
             <p className="h1 text-dark">
-              <h3 className="h1 text-primary">
+              <h3 className="h1 subhead">
                 Bilingual People Express Themselves Better
               </h3>
               <br />
@@ -254,7 +230,7 @@ const Homepage = () => {
           </div>
           <br />
           <div id="offer">
-            <h3 className="subhead h1 text-primary">All Budgets Accepted</h3>
+            <h3 className="subhead h1">All Budgets Accepted</h3>
             <br />
             <p className="h1 text-dark">
               Many clients are taking advantage of my low-cost services. So
@@ -279,7 +255,7 @@ const Homepage = () => {
             <br />
           </div>
           <form>
-            <h6 className="subhead h6 text-light">
+            <h6 className="subhead h6">
               <strong>Start Converting Prospects</strong> <br />
               Start by answering a few questions and I'll reply to you as soon
               as possible. <br />
@@ -290,9 +266,7 @@ const Homepage = () => {
             <button type="submit" className="button-2">
               Send Questionnaire
             </button>
-            <h8 className="subhead h6 text-warning">
-              Your privacy is protected.
-            </h8>
+            <h8 className=" h6 text-warning">Your privacy is protected.</h8>
           </form>
           <br />
           <br />

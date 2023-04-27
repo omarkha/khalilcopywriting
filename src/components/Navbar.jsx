@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../media/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,7 +16,11 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <a className="navbar-brand" href="#">
-          Khalil's Copywriting
+          <div
+            className="navlogo"
+            style={{ backgroundImage: `url(${logo})` }}
+          ></div>
+          Khalil's Marketing
         </a>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">

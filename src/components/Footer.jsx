@@ -37,7 +37,7 @@ const Footer = () => {
             ></div>
           </div>
         </div>
-        <h5 className="mt-5">All Copyrights Reserved.</h5>
+        <h5 className="mt-5">All Rights Reserved.</h5>
       </div>
     </footer>
   );
