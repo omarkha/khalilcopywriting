@@ -1,8 +1,11 @@
 import React from "react";
-import mypicture from "../media/mypic.jpg";
+import mypicture from "../media/mypicture2.jpg";
 import survey from "../media/survey.jpg";
 import awai from "../media/awai.jpg";
 import alison from "../media/alison.avif";
+import bootcamp from "../media/bootcamp.png";
+import coding from "../media/coding.jpg";
+
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -36,12 +39,12 @@ const Homepage = () => {
             </h2>
             <br />
             <br />
-            <h2>
-              Make the most out of your budget with copywriting that brings
-              results...
+            <h2 className="h3">
+              <u>
+                Make the most out of your budget with copywriting that brings
+                results
+              </u>
             </h2>
-            <br />
-            <br />
             <br />
             <br />
             <p className="h1 text-dark">
@@ -53,8 +56,8 @@ const Homepage = () => {
               struggle with a lack of time, ineffective web presence, and a{" "}
               <strong>lack of funds.</strong> <br />
               <br />
-              Get someone to help you launch your business and get revenue
-              coming in so you can finance and grow your business.
+              You can use a copywriter to help you launch your business and get
+              revenue coming in so you can finance and grow your business.
             </p>
             <br />
             <article>
@@ -63,42 +66,44 @@ const Homepage = () => {
                 <h3 className="subhead h1">
                   Experienced Marketing Professional
                 </h3>
-                <br />I moved from NY to Colorado, in the year 2016. I was
-                working as a door-to-door canvasser for a Colorado marketing
-                company called Black Diamond Outreach. Everyday, I had the
-                pleasure of <strong>interviewing up to a 100 people,</strong>{" "}
-                giving them surveys and collecting their names and email
-                addresses.
+                <br /> When I moved from New York to Colorado, in the year 2016,
+                I was working fulltime as a door-to-door canvasser for a
+                Colorado marketing company called Black Diamond Outreach.
+                Everyday, I had the pleasure of{" "}
+                <strong>interviewing up to a 100 people,</strong> giving them
+                surveys and collecting their names and email addresses.
                 <br />
-                <br /> When I started working I wanted to do a good job and
-                prove my merit, so I was{" "}
-                <strong>
-                  Awarded Best Employee of the Day for 3 days in a row
-                </strong>
-                . I finally took my foot off the peddle on the fourth day and
-                let others get awarded as well. <br />
+                <br /> When I started working I wanted to do my best and prove
+                my merit, and indeed I was{" "}
+                <strong>Awarded Best Employee</strong> in the office of over 20
+                people for 3 days in a row . I finally took my foot off the
+                peddle on the fourth day to let others get awarded as well and
+                not demoralize my team mates. <br />
                 <br />
+                With this sort of marketing experience and ability to interview
+                people effectively,{" "}
                 <strong>
-                  With my marketing experience and ability to interview people
-                  effectively, I can provide you with excellent testimonials,
-                  surveys and leads. That way you get knowledge on your market
-                  and business so you improve your business and achieve better
-                  results.
-                </strong>
+                  I can provide you with excellent testimonials, surveys and
+                  leads.
+                </strong>{" "}
+                That way you get knowledge on your market and business so you
+                improve your business and achieve better results.
               </p>
             </article>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1 ">A Great Team Player</h3> <br />
-              I have extensive experience working in team environments and
-              collaborating with team members regularly. From when I was a
-              salesman in a team for high-end Vacuum Cleaners at the age of 18
-              years old.. To collaborating on software engineering projects with
-              team members recently. <br />
+              <h3 className="subhead h1 ">A Great Team Player</h3> <br />I have
+              had, on a regular basis, worked in team environments and
+              collaborated with team members. From when I was a salesman working
+              with a team selling high-end Vacuum Cleaners in Colorado Springs
+              at the age of 18 years old.. To collaborating on software
+              engineering projects with fellow developers in recent times.{" "}
               <br />
-              You can be confident that you're working with a professional who
-              can properly communicate and has good people skills; Someone you
-              can be comfortable working with.
+              <br />
+              I am social, I love to network with people, and you can be
+              confident that you're working with a professional who can properly
+              communicate and has good people skills. Due to this, you will find
+              me to be someone you feel comfortable working with.
               <br />
               <br />
             </p>
@@ -140,15 +145,23 @@ const Homepage = () => {
               <br />
               <br />
               <ul>
-                <li>AWAI Copywriting Method</li>
                 <li>
-                  Basic Concepts and Techniques For Copywriting by Marcia Yudkin
+                  <strong>AWAI Copywriting Method</strong>
                 </li>
-                <li>Conversion Copywriting 101 by Copyhackers</li>
                 <li>
-                  Advanced Copywriting Skills and Techniques by Marcia Yudkin
+                  <strong>Basic Concepts and Techniques For Copywriting</strong>{" "}
+                  by Marcia Yudkin
                 </li>
-                <li>Kopywriting Korse by Neville Medhora</li>
+                <li>
+                  <strong>Conversion Copywriting 101</strong> by Copyhackers
+                </li>
+                <li>
+                  <strong>Advanced Copywriting Skills and Techniques</strong> by
+                  Marcia Yudkin
+                </li>
+                <li>
+                  <strong>Kopywriting Korse</strong> by Neville Medhora
+                </li>
               </ul>
             </p>
             <br />
@@ -198,24 +211,32 @@ const Homepage = () => {
                 </li>
               </ul>
             </p>
-            <p className="h1 text-dark">
-              <br />
-              <br />
-              <h3 className="subhead h1 ">Tech Savvy Software Developer</h3>
-              <br />I understand technology. I’ve been software engineering
-              since 14 years old. And,In the year 2022, I’ve completed General
-              Assembly’s <u>Software Engineering Bootcamp.</u> I have a{" "}
-              <a href="#">portfolio website</a> for web applications I’ve
-              developed. I consistently learn, practice and improve my software
-              development skills.
-              <br />
-              <br />
-              Being a Full Stack Software Engineer, I can develop for the
-              Client-Side and Server-Side of a website. I orient my development
-              learning around entrepreneurship. Having excellent engineering
-              skills helps you build a smarter marketing campaign resulting in
-              better results for your business.
-            </p>
+            <article>
+              <img src={coding} alt="Coding bootcamp image" />
+              <p className="h1 text-dark">
+                <br />
+                <br />
+                <h3 className="subhead h1 ">Tech Savvy Software Developer</h3>
+                <br />I understand technology. I’ve been software engineering
+                since 14 years old. And,In the year 2022, I’ve completed General
+                Assembly’s <u>Software Engineering Bootcamp.</u> I have a{" "}
+                <a href="https://omarkhalil.netlify.app/" target="_blank">
+                  portfolio website
+                </a>{" "}
+                for web applications I’ve developed. I consistently learn,
+                practice and improve my software development skills.
+                <br />
+                <br />
+                <img src={bootcamp} alt="Coding bootcamp image" />
+                <br />
+                <br />
+                Being a Full Stack Software Engineer, I can develop for the
+                Client-Side and Server-Side of a website. I orient my
+                development learning around entrepreneurship. Having excellent
+                engineering skills helps you build a smarter marketing campaign
+                resulting in better results for your business.
+              </p>
+            </article>
             <br />
             <p className="h1 text-dark">
               <h3 className="subhead h1 ">Entrepreneurial Awareness</h3> <br />
@@ -227,10 +248,10 @@ const Homepage = () => {
               <br />
               <br /> Robert Kiyosaki suggested in ‘Rich Dad, Poor Dad,’ that
               working for experience leads to more monetary success than working
-              for money. When I can make a positive impact on the success of
-              your business, I gain valuable experience. So whatever your
-              business is about, I will work to make you as much money as
-              possible.
+              for money. So when I can make a positive impact on the success of
+              your business, I gain valuable experience. Thus, whatever your
+              business is about, I will go aboce and beyond to provide you with
+              as much money as possible.
             </p>{" "}
             <br />
             <br />
@@ -254,12 +275,16 @@ const Homepage = () => {
           </div>
           <br />
           <div id="offer">
-            <h3 className="subhead h1">All Budgets Accepted</h3>
+            <h3 className="subhead h1 text-dark">
+              I can work with any kind of budget
+            </h3>
             <br />
             <p className="h1 text-dark">
-              Many clients are taking advantage of my low-cost services. So
-              enter your name and email address to set up an appointment as soon
-              as possible.
+              Startup business owners will be taking advantage of my low-cost
+              services.
+              <br />
+              <br /> So enter your name and email address to set up an
+              appointment as soon as possible.
               <br />
               <br />
               I can work with all kinds of budgets. The most important thing is
@@ -277,47 +302,56 @@ const Homepage = () => {
               call, or any other communication method you prefer.
             </p>
             <br />
-          </div>
-          <div>
-            <h6 className="subhead text-dark h6">
-              <strong>Start Converting Prospects </strong> <br />
-              <br />
-              Your First Step is to answer a few questions about your business
-              idea.
-              <br />
-              <br /> I'll then try to figure out a way to build a mutually
-              beneficial business relationship between us. <br />
-              <br />
-              Fill Out This Form and Click on the Submit Button
-            </h6>
 
-            <h5 className="subhead h6 text-dark">
-              If you sign up before <u>June, 1st 2023</u>
-              <br />
-              You can schedule a <strong>FREE consultaton with me</strong>{" "}
-              discussing a plan of action.
-              <br />
-            </h5>
-          </div>
-          <form>
-            <h5 className="subhead h5 text-warning">
-              Act Fast And Reserve an Appointment <br />
-              before My schedule is fully booked
-            </h5>
-            <input type="text" placeholder="Your Full Name" />
-            <input type="text" placeholder="Your Email Address" />
-            <button type="submit" className="button-2">
-              Send Questionnaire
-            </button>
-            <h8 className=" h6 text-dark">Your privacy is protected.</h8>
-          </form>
-          <br />
-          <br />
-          <div>
-            <p className="PS text-dark">
-              for any questions you can contact me at my personal email:
-              omareldagestany@outlook.com
-            </p>
+            <div>
+              <h6 className="subhead text-dark h5 p-5">
+                <strong>
+                  What do you need to do to Start Converting Prospects ASAP?{" "}
+                </strong>{" "}
+                <br />
+                <br />
+                Your First Step is to answer a few questions about your business
+                idea.
+                <br />
+                <br /> Then we can start to build a mutually beneficial business
+                relationship. <br />
+                <br />
+                Fill Out This Form and Click on the Submit Button, Now.
+              </h6>
+              <div id="specialoffer">
+                <h5 className="subhead h4 text-dark">
+                  If you sign up before <u>June, 1st 2023</u>
+                  <br />
+                  You can schedule a{" "}
+                  <strong>
+                    FREE consultaton with me
+                    <br />
+                  </strong>{" "}
+                  discussing a plan of action.
+                  <br />
+                </h5>
+              </div>
+            </div>
+            <form>
+              <h5 className="subhead h5 text-warning">
+                Act Fast And Reserve an Appointment <br />
+                before My schedule is fully booked
+              </h5>
+              <input type="text" placeholder="Your Full Name" />
+              <input type="text" placeholder="Your Email Address" />
+              <button type="submit" className="button-2">
+                Send Questionnaire
+              </button>
+              <h8 className=" h6 text-warning">Your privacy is protected.</h8>
+            </form>
+            <br />
+            <br />
+            <div>
+              <p className="PS text-dark">
+                for any questions you can contact me at my personal email:
+                omareldagestany@outlook.com
+              </p>
+            </div>
           </div>
         </section>
       </div>

@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+::selection {
+  color: red;
+  background: yellow;
+}
+
 #navbarTogglerDemo03 {
   align-items: end;
   justify-content: end;
@@ -42,7 +47,7 @@ a {
   border-top: 0;
   border-bottom: 0;
   padding: 0;
-  background-color: rgb(215, 200, 200);
+  background-color: rgb(160, 160, 255);
 }
 
 .mypicture {
@@ -231,9 +236,8 @@ footer ul {
 }
 
 .socialmedia {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 21px;
+  display: flex;
+  gap: 13px;
 }
 
 .socialmedia div {
@@ -251,9 +255,75 @@ footer ul {
 article img {
   margin: 21px;
   width: 38%;
+  border-radius: 13px;
 }
 
 .certificate {
   width: 144px;
   margin: 55px;
+}
+
+.about {
+  padding: 34px;
+}
+
+.aboutme p {
+  margin: 0 auto;
+  width: 377px;
+  text-align: start;
+}
+
+#linkedin {
+  width: 55px;
+  height: 55px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.portfolio {
+  padding: 34px;
+}
+
+.copypiece {
+  width: 62%;
+  border: 2px solid black;
+  padding: 34px;
+  border-radius: 34px;
+
+  background: linear-gradient(
+    34deg,
+    rgba(215, 215, 255, 0.62),
+    rgba(255, 255, 215, 0.62)
+  );
+  margin: 34px auto;
+}
+
+.copypiece a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid black;
+
+  font-size: 21px;
+  background-color: bisque;
+  padding: 8px 13px;
+  border-radius: 5px;
+}
+
+.copypiece a:hover {
+  font-size: 21px;
+  color: rgb(25, 101, 160);
+}
+
+#offer {
+  border-top: 4px dashed black;
+  width: 100%;
+  padding: 21px 34px;
+  border-radius: 55px;
+}
+
+#specialoffer {
+  border: 2px dashed black;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 13px 34px;
+  background-color: #fff;
 }
