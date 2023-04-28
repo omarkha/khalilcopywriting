@@ -5,6 +5,7 @@ import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
 import banner from "../media/banner.jpg";
+import books from "../media/books.jpg";
 import alisoncertificate from "../media/alison-certificate.png";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
@@ -170,52 +171,60 @@ const Landingpage = () => {
               </ul>
             </p>
             <br />
-            <p className="h1 text-dark">
-              <h3 className=" text-dark h1">Well-Read On Copywriting</h3> <br />
-              Most copywriters fail because they lack dedication, knowledge and
-              passion. In the past 4 years{" "}
-              <u>
-                <strong>I’ve read</strong> about <strong>49 books.</strong>
-              </u>{" "}
-              About <strong>15 books on Copywriting</strong>, some others were
-              about <strong>Marketing</strong> in general and others were mostly
-              self-help books.
-              <br />
-              <br /> You can expect me to apply my knowledge of the following
-              books in writing your copy:
-              <br />
-              <br />
-              <ul>
-                <li>
-                  <strong>Influence</strong> by Robert Cialdini
-                </li>
-                <li>
-                  <strong>Tested Advertising Methods</strong> by John Caples
-                </li>
-                <li>
-                  <strong>The Adweek Copywrting Handbook </strong>by Joseph
-                  Sugarman
-                </li>
-                <li>
-                  <strong>The Ultimate Sales Letter</strong> by Dan Kennedy
-                </li>
-                <li>
-                  <strong>Scientific Advertising by</strong> Claude Hopkins
-                </li>
-                <li>
-                  <strong>Cashvertising</strong> by Drew Whitman
-                </li>
-                <li>
-                  <strong>Save The Cat</strong> by Blake Snyder
-                </li>
-                <li>
-                  <strong>Breakthrough Advertising</strong> by Eugene Schwartz
-                </li>
-                <li>
-                  <strong>and more.</strong>
-                </li>
-              </ul>
-            </p>
+            <article>
+              <p className="h1 text-dark">
+                <h3 className=" text-dark h1">Well-Read On Copywriting</h3>{" "}
+                <br />
+                Most copywriters fail because they lack dedication, knowledge
+                and passion. In the past 4 years{" "}
+                <u>
+                  <strong>I’ve read</strong> about <strong>49 books.</strong>
+                </u>{" "}
+                About <strong>15 books on Copywriting</strong>, some others were
+                about <strong>Marketing</strong> in general and others were
+                mostly self-help books.
+                <br />
+                <br />
+                <img src={books} alt="image of some books I've read" />
+                <h5 className="text-muted">Some books I've read</h5>
+                <br />
+                <br />
+                You can expect me to apply my knowledge of the following
+                all-time best marketing books in writing your copy:
+                <br />
+                <br />
+                <ul>
+                  <li>
+                    <strong>Influence</strong> by Robert Cialdini
+                  </li>
+                  <li>
+                    <strong>Tested Advertising Methods</strong> by John Caples
+                  </li>
+                  <li>
+                    <strong>The Adweek Copywrting Handbook </strong>by Joseph
+                    Sugarman
+                  </li>
+                  <li>
+                    <strong>The Ultimate Sales Letter</strong> by Dan Kennedy
+                  </li>
+                  <li>
+                    <strong>Scientific Advertising by</strong> Claude Hopkins
+                  </li>
+                  <li>
+                    <strong>Cashvertising</strong> by Drew Whitman
+                  </li>
+                  <li>
+                    <strong>Save The Cat</strong> by Blake Snyder
+                  </li>
+                  <li>
+                    <strong>Breakthrough Advertising</strong> by Eugene Schwartz
+                  </li>
+                  <li>
+                    <strong>and more.</strong>
+                  </li>
+                </ul>
+              </p>
+            </article>
             <article>
               <img src={coding} alt="Coding bootcamp image" />
               <p className="h1 text-dark">
