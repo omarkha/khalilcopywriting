@@ -7,6 +7,7 @@ import Aboutpage from "./pages/Aboutpage";
 import Portfoliopage from "./pages/Portfoliopage";
 import Servicespage from "./pages/Servicespage";
 import Landingpage from "./pages/Landingpage";
+import Blogpage from "./pages/Blogpage";
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           <Route element={<Portfoliopage />} path="/portfolio" />
           <Route element={<Servicespage />} path="/services" />
           <Route element={<Landingpage />} path="/landingpage" />
+          <Route element={<Blogpage />} path="/blog" />
         </Routes>
 
         <Footer />

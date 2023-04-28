@@ -3,6 +3,8 @@ import facebook from "../media/facebook.png";
 import twitter from "../media/twitter.png";
 import instagram from "../media/instagram.png";
 import linkedin from "../media/linkedin.png";
+import awai from "../media/awai.jpg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,30 +13,51 @@ const Footer = () => {
         <div className="footercontent">
           <div className="links">
             <ul>
-              <li>Home</li>
-              <li>Portfolio</li>
-              <li>Resume</li>
-              <li>About Me</li>
-              <li>Contact</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/">Resume</Link>
+              </li>
+              <li>
+                <Link to="/about">About Me</Link>
+              </li>
             </ul>
           </div>
+          <div className="middle">
+            <h3>Certified by AWAI</h3>
+            <img src={awai} alt="AWAI logo" />
+          </div>
           <div className="socialmedia">
-            <div
+            <Link
               className="facebook"
+              to="https://www.facebook.com/profile.php?id=100092253552291"
               style={{ backgroundImage: `url(${facebook})` }}
-            ></div>
-            <div
+            ></Link>
+            <Link
+              to="https://twitter.com/omarkhalil34v"
               className="twitter"
               style={{ backgroundImage: `url(${twitter})` }}
-            ></div>
-            <div
+            ></Link>
+            <Link
+              to="https://www.instagram.com/omarkhalil34v/"
               className="instagram"
               style={{ backgroundImage: `url(${instagram})` }}
-            ></div>
-            <div
+            ></Link>
+            <Link
+              to="https://www.linkedin.com/in/omar-khalil-34v/"
               className="linkedin"
               style={{ backgroundImage: `url(${linkedin})` }}
-            ></div>
+            ></Link>
           </div>
         </div>
         <h5 className="mt-5">All Rights Reserved.</h5>

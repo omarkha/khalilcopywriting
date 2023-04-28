@@ -4,6 +4,7 @@ import awai from "../media/awai.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
+import banner from "../media/banner.jpg";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
 
@@ -11,6 +12,10 @@ const Landingpage = () => {
   return (
     <div className="landingpage">
       <div className="container">
+        <div
+          id="landingpage-banner"
+          style={{ backgroundImage: `url(${banner})` }}
+        ></div>
         <section className="copy">
           <div className="landingpage-logo">
             <div style={{ backgroundImage: `url(${logo})` }}></div>
@@ -56,9 +61,10 @@ const Landingpage = () => {
                 Everyday, I had the pleasure of{" "}
                 <strong>interviewing up to a 100 people,</strong> giving them
                 surveys and collecting their names and email addresses. That was
-                one of my jobs when I moved from New York to Colorado, in the
-                year 2016, I was working fulltime as a door-to-door canvasser
-                for a Colorado marketing company called Black Diamond Outreach.
+                one of a couple of jobs I worked when I moved from New York to
+                Colorado in the year 2016. I was working fulltime as a
+                door-to-door canvasser for a marketing company called Black
+                Diamond Outreach.
                 <br />
                 <br /> When I started working I wanted to do my best and prove
                 my merit, and indeed I was{" "}
@@ -78,6 +84,17 @@ const Landingpage = () => {
               </p>
             </article>
             <br />
+            <div className="quote text-light">
+              “My experience with Omar in my work as a restaurant owner has been
+              full of achievement. He was very helpful in my marketing efforts
+              where he took professional pictures of the food and the
+              restaurant. I’ve noticed that Omar helps the business owner reach
+              his/her customers in an excellent way and easily.“
+              <span className="text-muted">
+                {" "}
+                - Amal A. Maseer, New Paltz, NY
+              </span>
+            </div>{" "}
             <p className="h1 text-dark">
               <h3 className=" text-dark h1 ">A Great Team Player</h3> <br />I
               have had, on a regular basis, worked in team environments and
@@ -94,17 +111,6 @@ const Landingpage = () => {
               <br />
               <br />
             </p>
-            <div className="quote text-light">
-              “My experience with Omar in my work as a restaurant owner has been
-              full of achievement. He was very helpful in my marketing efforts
-              where he took professional pictures of the food and the
-              restaurant. I’ve noticed that Omar helps the business owner reach
-              his/her customers in an excellent way and easily.“
-              <span className="text-muted">
-                {" "}
-                - Amal A. Maseer, New Paltz, NY
-              </span>
-            </div>{" "}
             <img
               className="certificate"
               src={alison}
@@ -159,9 +165,9 @@ const Landingpage = () => {
               <u>
                 <strong>I’ve read</strong> about <strong>49 books.</strong>
               </u>{" "}
-              About 15 of those books were <strong>on Copywriting</strong>, some
-              others were about <strong>Marketing</strong> in general and others
-              were mostly self-help books.
+              About <strong>15 books on Copywriting</strong>, some others were
+              about <strong>Marketing</strong> in general and others were mostly
+              self-help books.
               <br />
               <br /> You can expect me to apply my knowledge of the following
               books in writing your copy:
@@ -265,7 +271,7 @@ const Landingpage = () => {
           </div>
           <br />
           <div id="offer">
-            <h3 className="subhead h1 text-light">
+            <h3 className="subhead h1 text-success  ">
               I can work with any kind of budget
             </h3>
             <br />

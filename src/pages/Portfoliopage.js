@@ -19,9 +19,9 @@ const Portfoliopage = () => {
             <div>
               <h3>'Safespex' Home Page</h3>
               <p className="h5 text-dark">
-                This is a home page copy that I wrote as part of my course with
-                Marcia Yudkin. It's for an Electrical Appliances Testing Company
-                in New Zealand.
+                A home page copy that I wrote as part of my course with Marcia
+                Yudkin. It's for an Electrical Appliances Testing Company in New
+                Zealand.
               </p>
               <p className="text-muted mt-4">April, 2023</p>
               <a
@@ -37,8 +37,8 @@ const Portfoliopage = () => {
             <div>
               <h3>'Queen of Clean' Sales Letter</h3>
               <p className="h5 text-dark">
-                This is a sales letter I wrote as part of my course with Marcia
-                Yudkin. It's a sales letter for a cleaning business.
+                A sales letter I wrote as part of my course with Marcia Yudkin.
+                It's a sales letter for a cleaning business.
               </p>
 
               <br />
