@@ -47,6 +47,19 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
+.homepage .container {
+  border: 1px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0;
+  padding-bottom: 34px;
+}
+
+.homepage-info {
+  width: 86%;
+  margin: 0 auto;
+}
+
 .landingpage .container {
   border: 1px solid black;
   border-top: 0;
