@@ -6,7 +6,7 @@ const Aboutpage = () => {
       <div className="container bg-light">
         <section className="about">
           <div className="aboutme">
-            <h3 className="subhead text-dark">Hello There!</h3>
+            <h3 className=" text-dark">Hello There!</h3>
             <p className="text-dark">
               I'm Omar Khalil, a copywriter, software developer, entrepreneur
               and the business owner of Khalil's Marketing. I'm a typology nerd,
@@ -32,7 +32,7 @@ const Aboutpage = () => {
           <br />
           <br />
           <div className="containtinfo">
-            <h3 className="subhead text-dark">Contact Info</h3>
+            <h3 className=" text-dark">Contact Info</h3>
             <p className="text-dark">
               Cellphone Number is <strong>845 616 7364.</strong> <br />
               Email Address is <strong>
