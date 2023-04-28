@@ -66,12 +66,13 @@ const Homepage = () => {
                 <h3 className="subhead h1">
                   Experienced Marketing Professional
                 </h3>
-                <br /> When I moved from New York to Colorado, in the year 2016,
-                I was working fulltime as a door-to-door canvasser for a
-                Colorado marketing company called Black Diamond Outreach.
+                <br />
                 Everyday, I had the pleasure of{" "}
                 <strong>interviewing up to a 100 people,</strong> giving them
-                surveys and collecting their names and email addresses.
+                surveys and collecting their names and email addresses. That was
+                one of my jobs when I moved from New York to Colorado, in the
+                year 2016, I was working fulltime as a door-to-door canvasser
+                for a Colorado marketing company called Black Diamond Outreach.
                 <br />
                 <br /> When I started working I wanted to do my best and prove
                 my merit, and indeed I was{" "}
@@ -94,9 +95,9 @@ const Homepage = () => {
             <p className="h1 text-dark">
               <h3 className="subhead h1 ">A Great Team Player</h3> <br />I have
               had, on a regular basis, worked in team environments and
-              collaborated with team members. From when I was a salesman working
-              with a team selling high-end Vacuum Cleaners in Colorado Springs
-              at the age of 18 years old.. To collaborating on software
+              collaborated with other team members. From when I was a salesman
+              working with a team selling high-end Vacuum Cleaners in Colorado
+              Springs at the age of 18 years old.. To collaborating on software
               engineering projects with fellow developers in recent times.{" "}
               <br />
               <br />
@@ -275,7 +276,7 @@ const Homepage = () => {
           </div>
           <br />
           <div id="offer">
-            <h3 className="subhead h1 text-dark">
+            <h3 className="subhead h1 text-light">
               I can work with any kind of budget
             </h3>
             <br />
