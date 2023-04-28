@@ -5,7 +5,7 @@ import awai from "../media/awai.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
-
+import { AiFillCheckCircle } from "react-icons/ai";
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -280,11 +280,11 @@ const Homepage = () => {
             </h3>
             <br />
             <p className="h1 text-dark">
-              Startup business owners will be taking advantage of my low-cost
-              services.
+              Startup business-owners will be taking advantage of my low-cost
+              services..
               <br />
-              <br /> So enter your name and email address to set up an
-              appointment as soon as possible.
+              <br /> ..So if you want converting copy, enter your name and email
+              address to set up an appointment with me as soon as possible.
               <br />
               <br />
               I can work with all kinds of budgets. The most important thing is
@@ -294,8 +294,8 @@ const Homepage = () => {
               <br />
               After submitting your name and email address, I will immediately
               reach back to you with a Questionnaire that helps me understand
-              what your business is about, so that we can increase your business
-              success. <br />
+              what your business is about. That way I can talk to you about what
+              we can do in the short and longterm to maximize success. <br />
               <br />
               Then we can set up an appointment and I will personally get back
               to you in order to figure it out either with a phone call, video
@@ -306,18 +306,23 @@ const Homepage = () => {
             <div>
               <h6 className="subhead text-dark h5 p-5">
                 <strong>
-                  What do you need to do to Start Converting Prospects ASAP?{" "}
+                  What YOU Need To Do To Start Converting Prospects ASAP{" "}
                 </strong>{" "}
                 <br />
                 <br />
-                Your First Step is to answer a few questions about your business
-                idea.
+                Take Your First Step by answering a few questions about your
+                business idea.
                 <br />
                 <br /> Then we can start to build a mutually beneficial business
                 relationship. <br />
                 <br />
                 Fill Out This Form and Click on the Submit Button, Now.
               </h6>
+              <h3 className="h2 text-dark">Pricing</h3>
+              <p className="h4 text-dark mb-5">
+                The price of my copywriting services depends on the amount of
+                words to be written. prices range from $50 up to $500.
+              </p>
               <div id="specialoffer">
                 <h5 className="subhead h4 text-dark">
                   If you sign up before <u>June, 1st 2023</u>
@@ -329,6 +334,9 @@ const Homepage = () => {
                   </strong>{" "}
                   discussing a plan of action.
                   <br />
+                  usually costs <s className="text-danger">$19.99</s> but if you
+                  act now you pay <u className="text-success">$0.</u> <br />
+                  and no credit card required.
                 </h5>
               </div>
             </div>
@@ -346,12 +354,44 @@ const Homepage = () => {
             </form>
             <br />
             <br />
-            <div>
-              <p className="PS text-dark">
-                for any questions you can contact me at my personal email:
-                omareldagestany@outlook.com
-              </p>
-            </div>
+          </div>
+          <div className="benefits">
+            <h3 className="text-dark">What do you get when working with me?</h3>
+            <ul>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Certifications.</strong> Having multiple certificates
+                guarantees you get reliable copy
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Surveys.</strong> Experienced in Public Opinion
+                Gathering I provide valueable market insights helping you
+                navigate your industry with sharpness.
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Expertise.</strong> With thorough knowledge about
+                marketing you get a never-ending stream of ideas to improve
+                business.
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Modern Marketing.</strong> My knowledge and expertise in
+                Software Development gives you an edge in modern maketing
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Highly Motivated.</strong> A Copywriter who's driven by
+                the desire to improve by providing tangible results for you
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Negotiable Pricing.</strong> In the beginning of
+                business every dollar counts. That's why you get to work with
+                someone who understands your needs.{" "}
+              </li>
+            </ul>
           </div>
         </section>
       </div>

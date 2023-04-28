@@ -327,3 +327,18 @@ article img {
   padding: 13px 34px;
   background-color: #fff;
 }
+
+.benefits ul {
+  list-style: none;
+  text-align: start;
+}
+.benefits {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(215, 230, 255, 1));
+  padding: 55px;
+  border-radius: 34px;
+}
+
+.checkmark {
+  margin: 8px;
+  width: 21px;
+}
