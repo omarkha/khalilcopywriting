@@ -49,7 +49,7 @@ const Landingpage = () => {
             <article>
               <img src={survey} alt="survey picture" />
               <p className="h1 text-dark">
-                <h3 className="subhead h1">
+                <h3 className=" text-dark h1">
                   Experienced Marketing Professional
                 </h3>
                 <br />
@@ -79,8 +79,8 @@ const Landingpage = () => {
             </article>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1 ">A Great Team Player</h3> <br />I have
-              had, on a regular basis, worked in team environments and
+              <h3 className=" text-dark h1 ">A Great Team Player</h3> <br />I
+              have had, on a regular basis, worked in team environments and
               collaborated with other team members. From when I was a salesman
               working with a team selling high-end Vacuum Cleaners in Colorado
               Springs at the age of 18 years old.. To collaborating on software
@@ -117,7 +117,7 @@ const Landingpage = () => {
             />
             <p className="h1 text-dark">
               <br />
-              <h3 className="subhead h1">Taught and Certified</h3> <br />
+              <h3 className=" h1 text-dark">Taught and Certified</h3> <br />
               It’s great to read the best copywriting books in the market. But
               knowing how to put this information to practice is the most
               important thing.
@@ -153,7 +153,7 @@ const Landingpage = () => {
             </p>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1">Well-Read On Copywriting</h3> <br />
+              <h3 className=" text-dark h1">Well-Read On Copywriting</h3> <br />
               Most copywriters fail because they lack dedication, knowledge and
               passion. In the past 4 years{" "}
               <u>
@@ -203,7 +203,9 @@ const Landingpage = () => {
               <p className="h1 text-dark">
                 <br />
                 <br />
-                <h3 className="subhead h1 ">Tech Savvy Software Developer</h3>
+                <h3 className=" text-dark h1 ">
+                  Tech Savvy Software Developer
+                </h3>
                 <br />I understand technology. I’ve been software engineering
                 since 14 years old. And,In the year 2022, I’ve completed General
                 Assembly’s <u>Software Engineering Bootcamp.</u> I have a{" "}
@@ -226,7 +228,8 @@ const Landingpage = () => {
             </article>
             <br />
             <p className="h1 text-dark">
-              <h3 className="subhead h1 ">Entrepreneurial Awareness</h3> <br />
+              <h3 className=" text-dark h1 ">Entrepreneurial Awareness</h3>{" "}
+              <br />
               I mentioned that I’m also an entrepreneur. But ever since I found
               my calling, I’ve been very ambitious, optimistic, positive and
               driven in the years since deciding to be my own boss. I have 100s
@@ -289,64 +292,7 @@ const Landingpage = () => {
               call, or any other communication method you prefer.
             </p>
             <br />
-            <div className="benefits">
-              <h3 className="text-dark">
-                What do you get when working with me?
-              </h3>
-              <ul>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Certifications.</strong> Having multiple certificates
-                  guarantees you reliable copy
-                </li>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Surveys.</strong> Experienced in Public Opinion
-                  Gathering I provide valueable market insights helping you
-                  navigate your industry with sharpness.
-                </li>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Expertise.</strong> With thorough knowledge about
-                  marketing you get a never-ending stream of ideas to improve
-                  business.
-                </li>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Modern Marketing.</strong> My knowledge and expertise
-                  in Software Development gives you an edge in modern maketing
-                </li>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Highly Motivated.</strong> A Copywriter who's driven
-                  by the desire to improve by providing tangible results for you
-                </li>
-                <li>
-                  <AiFillCheckCircle
-                    color="yellowgreen"
-                    className="checkmark"
-                  />
-                  <strong>Negotiable Pricing.</strong> In the beginning of
-                  business every dollar counts. That's why you get to work with
-                  someone who understands your needs.{" "}
-                </li>
-              </ul>
-            </div>
+
             <div>
               <h6 className=" text-dark h5 p-5">
                 <strong>
@@ -398,6 +344,44 @@ const Landingpage = () => {
             </form>
             <br />
             <br />
+          </div>
+          <div className="benefits">
+            <h3 className="text-dark">What do you get when working with me?</h3>
+            <ul>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Certifications.</strong> Having multiple certificates
+                guarantees you reliable copy
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Surveys.</strong> Experienced in Public Opinion
+                Gathering I provide valueable market insights helping you
+                navigate your industry with sharpness.
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Expertise.</strong> With thorough knowledge about
+                marketing you get a never-ending stream of ideas to improve
+                business.
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Modern Marketing.</strong> My knowledge and expertise in
+                Software Development gives you an edge in modern maketing
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Highly Motivated.</strong> A Copywriter who's driven by
+                the desire to improve by providing tangible results for you
+              </li>
+              <li>
+                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
+                <strong>Negotiable Pricing.</strong> In the beginning of
+                business every dollar counts. That's why you get to work with
+                someone who understands your needs.{" "}
+              </li>
+            </ul>
           </div>
         </section>
       </div>
