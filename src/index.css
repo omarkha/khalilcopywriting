@@ -47,7 +47,7 @@ a {
   border-top: 0;
   border-bottom: 0;
   padding: 0;
-  background-color: rgb(160, 160, 255);
+  background-color: rgb(160, 215, 255);
 }
 
 .mypicture {
@@ -217,7 +217,8 @@ input[type="text"] {
 }
 
 .subhead {
-  color: rgb(0, 15, 101);
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 8px black;
 }
 
 footer {
@@ -333,6 +334,7 @@ article img {
   text-align: start;
 }
 .benefits {
+  font-size: 21px;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(215, 230, 255, 1));
   padding: 55px;
   border-radius: 34px;

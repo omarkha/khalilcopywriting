@@ -304,7 +304,7 @@ const Homepage = () => {
             <br />
 
             <div>
-              <h6 className="subhead text-dark h5 p-5">
+              <h6 className=" text-dark h5 p-5">
                 <strong>
                   What YOU Need To Do To Start Converting Prospects ASAP{" "}
                 </strong>{" "}
@@ -361,7 +361,7 @@ const Homepage = () => {
               <li>
                 <AiFillCheckCircle color="yellowgreen" className="checkmark" />
                 <strong>Certifications.</strong> Having multiple certificates
-                guarantees you get reliable copy
+                guarantees you reliable copy
               </li>
               <li>
                 <AiFillCheckCircle color="yellowgreen" className="checkmark" />
