@@ -273,9 +273,7 @@ const Landingpage = () => {
             <br />
             <br />
             <p className="h1 text-dark">
-              <h3 className="h1 subhead">
-                Bilingual People Express Themselves Better
-              </h3>
+              <h3 className="h1 subhead">Bilingual and Articulate</h3>
               <br />
               I read, write and speak English fluently. Not only English but
               also the Arabic language. It might be assumed that non-native
