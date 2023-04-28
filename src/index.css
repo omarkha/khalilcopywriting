@@ -317,8 +317,7 @@ article img {
 #offer {
   border-top: 4px dashed black;
   width: 100%;
-  padding: 21px 34px;
-  border-radius: 55px;
+  padding: 55px 34px;
 }
 
 #specialoffer {

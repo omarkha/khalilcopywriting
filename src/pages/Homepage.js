@@ -303,7 +303,64 @@ const Homepage = () => {
               call, or any other communication method you prefer.
             </p>
             <br />
-
+            <div className="benefits">
+              <h3 className="text-dark">
+                What do you get when working with me?
+              </h3>
+              <ul>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Certifications.</strong> Having multiple certificates
+                  guarantees you reliable copy
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Surveys.</strong> Experienced in Public Opinion
+                  Gathering I provide valueable market insights helping you
+                  navigate your industry with sharpness.
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Expertise.</strong> With thorough knowledge about
+                  marketing you get a never-ending stream of ideas to improve
+                  business.
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Modern Marketing.</strong> My knowledge and expertise
+                  in Software Development gives you an edge in modern maketing
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Highly Motivated.</strong> A Copywriter who's driven
+                  by the desire to improve by providing tangible results for you
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Negotiable Pricing.</strong> In the beginning of
+                  business every dollar counts. That's why you get to work with
+                  someone who understands your needs.{" "}
+                </li>
+              </ul>
+            </div>
             <div>
               <h6 className=" text-dark h5 p-5">
                 <strong>
@@ -355,44 +412,6 @@ const Homepage = () => {
             </form>
             <br />
             <br />
-          </div>
-          <div className="benefits">
-            <h3 className="text-dark">What do you get when working with me?</h3>
-            <ul>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Certifications.</strong> Having multiple certificates
-                guarantees you reliable copy
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Surveys.</strong> Experienced in Public Opinion
-                Gathering I provide valueable market insights helping you
-                navigate your industry with sharpness.
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Expertise.</strong> With thorough knowledge about
-                marketing you get a never-ending stream of ideas to improve
-                business.
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Modern Marketing.</strong> My knowledge and expertise in
-                Software Development gives you an edge in modern maketing
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Highly Motivated.</strong> A Copywriter who's driven by
-                the desire to improve by providing tangible results for you
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Negotiable Pricing.</strong> In the beginning of
-                business every dollar counts. That's why you get to work with
-                someone who understands your needs.{" "}
-              </li>
-            </ul>
           </div>
         </section>
       </div>
