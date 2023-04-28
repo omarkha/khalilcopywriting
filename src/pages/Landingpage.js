@@ -5,8 +5,10 @@ import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
 import banner from "../media/banner.jpg";
+import alisoncertificate from "../media/alison-certificate.png";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
+import { Link } from "react-router-dom";
 
 const Landingpage = () => {
   return (
@@ -132,6 +134,16 @@ const Landingpage = () => {
               As a copywriter I have completed over 5 courses on Copywriting and
               Marketing. And I am certified by AWAI and Alison.com for partaking
               in Copywriting courses.
+              <br />
+              <br />
+              <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+                <div
+                  className="certificate"
+                  target="_blank"
+                  id="alisoncertificate"
+                  style={{ backgroundImage: `url(${alisoncertificate})` }}
+                ></div>
+              </a>
               <br />
               <br />
               The most notable courses that I’ve completed are:

@@ -15,8 +15,10 @@ const Homepage = () => {
             <div>
               <h1 className="myname">
                 {" "}
-                Omar S. Khalil -{" "}
-                <span>Copywriter, Software Developer and Entrepreneur</span>
+                Omar S. Khalil <br />{" "}
+                <span className="text-warning h6">
+                  Copywriter, Software Developer and Entrepreneur
+                </span>
               </h1>
             </div>
           </div>

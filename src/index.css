@@ -110,10 +110,10 @@ a:hover {
 
 .mypicture {
   position: relative;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: -180px;
-  width: 100%;
+
+  width: 377px;
   height: 377px;
   box-shadow: 3px 2px 8px black;
   border-radius: 21px;
@@ -154,12 +154,13 @@ a:hover {
 .intro .myname {
   font-family: "Castoro Titling", cursive;
 
-  margin: 21px auto;
   font-size: 21px;
   color: rgb(255, 255, 255);
   text-shadow: none;
   background: linear-gradient(rgba(155, 155, 155, 0.38), rgba(25, 25, 25, 1));
   padding: 13px;
+  width: 377px;
+
   margin-top: -21px;
   padding-top: 55px;
   border-radius: 13px;
