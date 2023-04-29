@@ -28,8 +28,8 @@ const Landingpage = () => {
           <br />
           <div>
             <h2 className="headline h1">
-              knowledgeable and experienced, here to help you realize financial
-              freedom
+              Knowledgeable, certified and experienced, here to help you reach
+              financial freedom
             </h2>
             <br />
             <br />
