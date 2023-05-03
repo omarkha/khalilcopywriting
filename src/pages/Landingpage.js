@@ -93,9 +93,10 @@ const Landingpage = () => {
               where he took professional pictures of the food and the
               restaurant. I’ve noticed that Omar helps the business owner reach
               his/her customers in an excellent way and easily.“
+              <br />
               <span className="text-muted">
                 {" "}
-                - Amal A. Maseer, New Paltz, NY
+                - Amal A. Maseer, New Paltz, NY. Owner of Amals Cusine.
               </span>
             </div>{" "}
             <p className="h1 text-dark">

@@ -17,6 +17,23 @@ const Portfoliopage = () => {
           </p>
           <div className="copypiece">
             <div>
+              <h3>'Techra Software Solutions' Website</h3>
+              <p className="h5 text-dark">
+                This is a website I built, coded and wrote copy for all on my
+                own.
+              </p>
+              <p className="text-muted mt-4">May, 2023</p>
+              <a
+                className="button-2 mt-4"
+                href="https://techra.netlify.app/"
+                target="_blank"
+              >
+                View Copy
+              </a>
+            </div>
+          </div>
+          <div className="copypiece">
+            <div>
               <h3>'Safespex' Home Page</h3>
               <p className="h5 text-dark">
                 A home page copy that I wrote as part of my course with Marcia
