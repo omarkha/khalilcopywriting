@@ -237,8 +237,8 @@ a:hover {
   font-size: 21px;
   padding-right: 89px;
   padding-left: 89px;
+  line-height: 34px;
 }
-
 .copy .quote {
   font-size: 18px;
   background-color: rgb(16, 160, 215);

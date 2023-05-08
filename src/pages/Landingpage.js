@@ -1,6 +1,6 @@
 import React from "react";
 import survey from "../media/survey.jpg";
-import awai from "../media/awai.jpg";
+import gem from "../media/gem.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
@@ -27,8 +27,8 @@ const Landingpage = () => {
               <h1>Khalil's Marketing</h1>
 
               <h2 className="headline h1">
-                This Modern Copywriter is Trained and Certified to Sell For You
-                So That You Make Money While You Eat and Sleep
+                This Modern Copywriter is Trained and Certified to Make You
+                Money While You Eat and Sleep
               </h2>
               <h3>..Scroll Down for More..</h3>
             </div>
@@ -43,67 +43,73 @@ const Landingpage = () => {
             <Fade left>
               <br />
               <br />
-              <h2 className="h3">
-                <u>
-                  Multiply Your Budget With Modern Marketing Methods That Makes
-                  You Happier Every Time You Get Order Notifications Streaming
-                  To Your Account!
-                </u>
+              <h2 className="h2">
+                Multiply Your Budget With Modern Marketing Methods, and Get
+                Order Notifications Streaming To Your Account!
               </h2>
             </Fade>
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Fade left>
-              <p className="h1 text-dark">
-                You stopped beating around the books, you’ve got your magical
-                idea, and not only that but you also worked hard and created a
-                product or service which you can't help but sit back, look at
-                and marvel over. Now you’re ready to start a new business. At
-                last, It's happening. <br />
-                <br />
-                Now you're at the stage of trying to figure out how to get those
-                initial sales.
-                <br />
-                <br />
-                The main problems you're facing now are an unfruitful web
-                presence, lack of time, and LACK OF FUNDS.
-                <br />
-                <br />
-                There's a secret to solving all of these worrisome problems,
-                once and for all, which can be described in just one word.
-                <br />
-                <br />
-                Copywriter.
-                <br />
-                <br />
-                Just like an engineer fueling up one of those sci-fi looking
-                fighter jets that are ready for battle, a trained copywriter can
-                help prepare your business, fuel it with revenue and launch your
-                business from the grounds up.
-                <br />
-                <br />
-                The other important secret here is to NOT just get ANY
-                copywriter to take care of your business before taking off.
-                Instead employ a well trained one!
-                <br />
-                <br />
-                My name is Omar Khalil and my job is to get you all that you
-                need for your business to succeed. Everthing Marketing related.
-                From sales, leads, testimonials, surveys and more, I will take
-                care of all those things for you, so that from this point on you
-                can comfortably spend your time on perfecting your products
-                instead of exhausting your energy inefficiently. Let's make the
-                market a YES-fly Zone for your business!
-              </p>
+              <article>
+                <p className="h1 text-dark">
+                  <img src={gem} style={{ float: "left" }} />
+                  You stopped beating around the books, you’ve got your magical
+                  idea, and not only that but you also worked hard and created a
+                  product or service which you can't help but sit back, look at
+                  and marvel over! Now you’re ready to start a new business.
+                  Let's Cash In. <br />
+                  <br />
+                  Now you're at the stage of trying to figure out how to get
+                  those initial sales.
+                  <br />
+                  <br />
+                  The main problems you're facing now are an unfruitful web
+                  presence, lack of time, and LACK OF FUNDS.
+                  <br />
+                  <br />
+                  There's a secret to solving all of these worrisome problems,
+                  once and for all, which can be described in just one word:
+                  Copywriter.
+                  <br />
+                  <br />
+                  Just like an engineer fueling up one of those sci-fi looking
+                  fighter jets that are ready for battle, a trained copywriter
+                  can help prepare your business, fuel it with revenue and
+                  launch your business from the grounds up.
+                  <br />
+                  <br />
+                  The other important secret here is to NOT just get ANY
+                  copywriter to take care of your business before taking off.
+                  Instead employ a properly trained one!
+                  <br />
+                  <br />
+                  My name is Omar Khalil. I'm Well-Read, Trained and Certified
+                  to get you all that you need for your business to compete..
+                  From sales, leads, testimonials, surveys and more, I will take
+                  care of all those things for you, so instead of exhasting your
+                  energy ineffeciently, from this point on, you can comfortably
+                  spend your time on perfecting your products. Make the market a
+                  YES-fly Zone.
+                </p>{" "}
+              </article>
             </Fade>
             <br />
             <Fade left>
               <article>
-                <img src={survey} alt="survey picture" />
                 <p className="h1 text-dark">
                   <h3 className=" text-dark h1">
                     The Story of My First Marketing Experience
                   </h3>
+                  <img
+                    src={survey}
+                    style={{ float: "left" }}
+                    alt="survey picture"
+                  />
                   <br />
                   Like most kids, my ambitions were big. But when I grew up, I
                   didn't lose my drive. <br />
@@ -148,11 +154,15 @@ const Landingpage = () => {
             </Fade>
             <Fade right>
               <article>
-                <img src={award} alt="survey picture" />
                 <h3 className=" text-dark h1">
                   My First 3 Awards as a Marketer
                 </h3>
                 <p className="h1 text-dark">
+                  <img
+                    src={award}
+                    style={{ float: "left" }}
+                    alt="survey picture"
+                  />
                   When I started working I wanted to do my best and prove my
                   capabilities, and, indeed, I was Awarded Best Employee for 3
                   days in a row, in an office of over 30 people. On the fourth
@@ -272,9 +282,6 @@ const Landingpage = () => {
             </Fade>
             <br />
             <article>
-              <Bounce>
-                <img src={books} alt="image of some books I've read" />
-              </Bounce>
               <br />
               <br />
               <Fade bottom>
@@ -291,6 +298,9 @@ const Landingpage = () => {
                   were mostly self-help books.
                   <br />
                   <br />
+                  <Bounce>
+                    <img src={books} alt="image of some books I've read" />
+                  </Bounce>
                   <h5 className="text-muted">Some books I've read</h5>
                   <br />
                   <br />
