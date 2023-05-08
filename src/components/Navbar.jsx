@@ -3,7 +3,7 @@ import logo from "../media/logo.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <button
           className="navbar-toggler"

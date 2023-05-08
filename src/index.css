@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comme&display=swap");
 body {
   margin: 0;
 
-  font-family: "Roboto Slab", serif;
-
+  font-family: "Comme", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(40, 63, 89);
+  background-color: rgb(255, 255, 255);
 }
 
 code {
@@ -15,23 +14,33 @@ code {
     monospace;
 }
 
+.spinner-page {
+  color: #000028;
+  background: linear-gradient(rgba(160, 160, 255, 1), rgba(63, 63, 101, 1));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .h5 {
   line-height: 35px;
 }
 
 .button-1 {
-  color: #00d7c3;
+  color: rgb(0, 15, 101);
   padding: 13px;
   background-color: transparent;
-  border: 3px solid #00d7c3;
+  border: 3px solid rgb(0, 15, 101);
   border-radius: 50px;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 .button-1:hover {
-  color: #00d7c3;
-  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-  border: 3px solid #00d7c3;
+  color: rgb(0, 15, 101);
+  box-shadow: 0 0 10px 0 rgb(0, 15, 101) inset, 0 0 20px 2px rgb(0, 15, 101);
+  border: 3px solid rgb(0, 15, 101);
 }
 
 ::selection {
@@ -65,13 +74,11 @@ a:hover {
   background-size: contain;
 }
 .navbar {
-  border-bottom: 2px solid black;
+  height: 89px;
+  color: #fff;
 }
 
 .homepage .container {
-  border: 1px solid black;
-  border-top: 0;
-  border-bottom: 0;
   padding: 0;
   padding-bottom: 34px;
 }
@@ -82,23 +89,17 @@ a:hover {
 }
 
 .landingpage .container {
-  border: 1px solid black;
   border-top: 0;
   border-bottom: 0;
   padding: 0;
-  background: linear-gradient(
-    rgb(255, 255, 255),
-    rgb(215, 215, 255),
-    rgb(160, 160, 215)
-  );
 }
 
 .button-3 {
-  padding: 8px;
+  padding: 13px 21px;
+  border-radius: 34px;
   font-size: 21px;
   border: 2px solid rgb(25, 160, 255);
   background-color: rgb(0, 0, 40);
-  border-radius: 20px;
   color: #fff;
   transition: 0.3s;
 }
@@ -110,15 +111,16 @@ a:hover {
 
 .mypicture {
   position: relative;
-  background-size: contain;
+  background-size: cover;
+  background-position: top;
+  background-position-y: -89px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 40, 0.62);
   background-repeat: no-repeat;
-
   width: 377px;
-  height: 377px;
+  height: calc(100vh - 288px);
   box-shadow: 3px 2px 8px black;
   border-radius: 21px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   z-index: 2;
 }
 
@@ -129,7 +131,7 @@ a:hover {
 .myinfo {
   padding-top: 55px;
   width: 500px;
-  color: rgb(40, 25, 101);
+  color: #fff;
 }
 
 .intro {
@@ -139,30 +141,38 @@ a:hover {
   justify-content: space-evenly;
   align-items: center;
   gap: 144px;
-  box-shadow: 0 3px 13px black;
 
   margin: 0;
-  background: linear-gradient(45deg, rgb(215, 160, 15), aliceblue);
-  background-image: url("./media/bg2.jpg");
-  background-size: cover;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  min-height: 86vh;
+
   overflow: hidden;
 }
 
+.home-intro-wrapper {
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 89px);
+  background-color: rgba(0, 0, 40, 1);
+  background-blend-mode: luminosity;
+}
+
+#home-intro-video {
+  margin: 89px auto;
+  width: 62vw;
+  height: 62vh;
+  margin-bottom: 0;
+}
+
 .intro .myname {
-  font-family: "Castoro Titling", cursive;
+  font-family: "Comme", sans-serif;
 
   font-size: 21px;
-  color: rgb(255, 255, 255);
-  text-shadow: none;
-  background: linear-gradient(rgba(155, 155, 155, 0.38), rgba(25, 25, 25, 1));
+  color: rgb(0, 0, 40);
+
+  background: linear-gradient(rgba(160, 160, 255, 1), rgba(63, 63, 101, 1));
   padding: 13px;
   width: 377px;
-
-  margin-top: -21px;
-  padding-top: 55px;
+  margin: 0 auto;
+  margin-top: 21px;
   border-radius: 13px;
   z-index: 1;
   box-shadow: 3px 2px 8px black;
@@ -193,9 +203,11 @@ a:hover {
 }
 
 .intro .myinfo h2 {
-  padding: 21px;
-  background: linear-gradient(rgb(25, 25, 25), rgba(25, 25, 25, 0.62));
+  font-size: 55px;
+  padding: 55px 21px;
+  background: linear-gradient(rgba(160, 160, 255, 0.618), rgba(0, 0, 40, 1));
   border-radius: 21px;
+  box-shadow: 3px 2px 8px black;
 }
 
 .myinfo button {
@@ -270,7 +282,7 @@ button[type="submit"] {
 }
 
 h2 {
-  color: rgb(0, 15, 101);
+  color: rgb(0, 0, 40);
 }
 
 button[type="submit"]:hover {
@@ -289,7 +301,7 @@ input[type="text"] {
 }
 
 .subhead {
-  font-family: "Castoro Titling", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -457,7 +469,18 @@ article img {
 }
 
 #landingpage-banner {
-  height: 377px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 89px);
+}
+
+#landingpage-banner .landingpage-logo {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 13px 89px;
+  border-radius: 13px;
 }
 
 .post {

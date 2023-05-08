@@ -6,252 +6,397 @@ import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
 import banner from "../media/banner.jpg";
 import books from "../media/books.jpg";
+import award from "../media/award.png";
 import alisoncertificate from "../media/alison-certificate.png";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
 import { Link } from "react-router-dom";
+import { Bounce, Fade, Flip, Zoom } from "react-reveal";
 
 const Landingpage = () => {
   return (
     <div className="landingpage">
-      <div className="container">
+      <Zoom>
         <div
           id="landingpage-banner"
           style={{ backgroundImage: `url(${banner})` }}
-        ></div>
-        <section className="copy">
-          <div className="landingpage-logo">
-            <div style={{ backgroundImage: `url(${logo})` }}></div>
-            <h1>Khalil's Marketing</h1>
+        >
+          <div className="container">
+            <div className="landingpage-logo">
+              <div style={{ backgroundImage: `url(${logo})` }}></div>
+              <h1>Khalil's Marketing</h1>
+
+              <h2 className="headline h1">
+                This Modern Copywriter is Trained and Certified to Sell For You
+                So That You Make Money While You Eat and Sleep
+              </h2>
+              <h3>..Scroll Down for More..</h3>
+            </div>
           </div>
+        </div>
+      </Zoom>
+      <div className="container">
+        <section className="copy">
           <br />
           <br />
           <div>
-            <h2 className="headline h1">
-              Knowledgeable, certified and experienced, here to help you reach
-              financial freedom
-            </h2>
-            <br />
-            <br />
-            <h2 className="h3">
-              <u>
-                Make the most out of your budget with copywriting that brings
-                results
-              </u>
-            </h2>
-            <br />
-            <br />
-            <p className="h1 text-dark">
-              You’re starting a new business.. And you’ve got your idea, you
-              produced the product or service, but you don’t know how to get the
-              sales yet. <br />
+            <Fade left>
               <br />
-              Aside from that, as a new business owner you simultaneously
-              struggle with a lack of time, ineffective web presence, and a{" "}
-              <strong>lack of funds.</strong> <br />
               <br />
-              You can use a copywriter to help you launch your business and get
-              revenue coming in so you can finance and grow your business.
-            </p>
+              <h2 className="h3">
+                <u>
+                  Multiply Your Budget With Modern Marketing Methods That Makes
+                  You Happier Every Time You Get Order Notifications Streaming
+                  To Your Account!
+                </u>
+              </h2>
+            </Fade>
             <br />
-            <article>
-              <img src={survey} alt="survey picture" />
+            <br />
+            <Fade left>
               <p className="h1 text-dark">
-                <h3 className=" text-dark h1">
-                  Experienced Marketing Professional
-                </h3>
+                You stopped beating around the books, you’ve got your magical
+                idea, and not only that but you also worked hard and created a
+                product or service which you can't help but sit back, look at
+                and marvel over. Now you’re ready to start a new business. At
+                last, It's happening. <br />
                 <br />
-                Everyday, I had the pleasure of{" "}
-                <strong>interviewing up to a 100 people,</strong> giving them
-                surveys and collecting their names and email addresses. That was
-                one of a couple of jobs I worked when I moved from New York to
-                Colorado in the year 2016. I was working fulltime as a
-                door-to-door canvasser for a marketing company called Black
-                Diamond Outreach.
+                Now you're at the stage of trying to figure out how to get those
+                initial sales.
                 <br />
-                <br /> When I started working I wanted to do my best and prove
-                my merit, and indeed I was{" "}
-                <strong>Awarded Best Employee</strong> in the office of over 20
-                people for 3 days in a row . I finally took my foot off the
-                peddle on the fourth day to let others get awarded as well and
-                not demoralize my team mates. <br />
                 <br />
-                With this sort of marketing experience and ability to interview
-                people effectively,{" "}
-                <strong>
-                  I can provide you with excellent testimonials, surveys and
-                  leads.
-                </strong>{" "}
-                That way you get knowledge on your market and business so you
-                improve your business and achieve better results.
+                The main problems you're facing now are an unfruitful web
+                presence, lack of time, and LACK OF FUNDS.
+                <br />
+                <br />
+                There's a secret to solving all of these worrisome problems,
+                once and for all, which can be described in just one word.
+                <br />
+                <br />
+                Copywriter.
+                <br />
+                <br />
+                Just like an engineer fueling up one of those sci-fi looking
+                fighter jets that are ready for battle, a trained copywriter can
+                help prepare your business, fuel it with revenue and launch your
+                business from the grounds up.
+                <br />
+                <br />
+                The other important secret here is to NOT just get ANY
+                copywriter to take care of your business before taking off.
+                Instead employ a well trained one!
+                <br />
+                <br />
+                My name is Omar Khalil and my job is to get you all that you
+                need for your business to succeed. Everthing Marketing related.
+                From sales, leads, testimonials, surveys and more, I will take
+                care of all those things for you, so that from this point on you
+                can comfortably spend your time on perfecting your products
+                instead of exhausting your energy inefficiently. Let's make the
+                market a YES-fly Zone for your business!
               </p>
-            </article>
+            </Fade>
             <br />
-            <div className="quote text-light">
-              “My experience with Omar in my work as a restaurant owner has been
-              full of achievement. He was very helpful in my marketing efforts
-              where he took professional pictures of the food and the
-              restaurant. I’ve noticed that Omar helps the business owner reach
-              his/her customers in an excellent way and easily.“
-              <br />
-              <span className="text-muted">
-                {" "}
-                - Amal A. Maseer, New Paltz, NY. Owner of Amals Cusine.
-              </span>
-            </div>{" "}
-            <p className="h1 text-dark">
-              <h3 className=" text-dark h1 ">A Great Team Player</h3> <br />I
-              have had, on a regular basis, worked in team environments and
-              collaborated with other team members. From when I was a salesman
-              working with a team selling high-end Vacuum Cleaners in Colorado
-              Springs at the age of 18 years old.. To collaborating on software
-              engineering projects with fellow developers in recent times.{" "}
-              <br />
-              <br />
-              I am social, I love to network with people, and you can be
-              confident that you're working with a professional who can properly
-              communicate and has good people skills. Due to this, you will find
-              me to be someone you feel comfortable working with.
-              <br />
-              <br />
-            </p>
-            <img
-              className="certificate"
-              src={alison}
-              alt="alison dot com certificate"
-            />{" "}
-            <img
-              className="certificate"
-              src={awai}
-              alt="Americans writers and artists institute copywriting certificate"
-            />
-            <p className="h1 text-dark">
-              <br />
-              <h3 className=" h1 text-dark">Taught and Certified</h3> <br />
-              It’s great to read the best copywriting books in the market. But
-              knowing how to put this information to practice is the most
-              important thing.
-              <br />
-              <br />
-              As a copywriter I have completed over 5 courses on Copywriting and
-              Marketing. And I am certified by AWAI and Alison.com for partaking
-              in Copywriting courses.
-              <br />
-              <br />
-              <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+            <Fade left>
+              <article>
+                <img src={survey} alt="survey picture" />
+                <p className="h1 text-dark">
+                  <h3 className=" text-dark h1">
+                    The Story of My First Marketing Experience
+                  </h3>
+                  <br />
+                  Like most kids, my ambitions were big. But when I grew up, I
+                  didn't lose my drive. <br />
+                  <br />
+                  at 18 years old, my ambitions were higher than the horizon.
+                  Therefore, I move from my small, little town in upstate New
+                  York to Colorado, to reach the stars.
+                  <br />
+                  <br />I got on the plane from New York to Colorado with just a
+                  phone, my drivers license and a luggage bag containing my
+                  clothes, aside from about $600.
+                  <br />
+                  <br /> So, as soon as I got there, I hammered away with
+                  fulltime jobs to secure my stay.
+                  <br />
+                  <br />I was a driven young man with an abundance of energy and
+                  a knack for adventure. Yet, my first job was not ideal for me
+                  at the time. <br />
+                  <br /> I worked as a Salesman for The Kirby Company selling
+                  high-end Vacuum Cleaners but I did not have the sales
+                  expertise necessary to secure a sufficient income. So, after
+                  three weeks, I moved on, in search of a job with a stable
+                  wage.
+                  <br />
+                  <br />
+                  That's when I was hired at a marketing company called Black
+                  Diamond Outreach, where I went canvassing on the field,
+                  outside going from door-to-door with tablet that had a map and
+                  pinpoints of the locations I was assigned to survey.
+                  <br />
+                  <br />
+                  As a communicative person, the one thing in Colorado Springs
+                  that made me about 99 times happier at work was the
+                  opportunity to interview about 99 people each day. I chatted
+                  up people while giving them surveys about political issues,
+                  then collecting their names and email addresses. That was very
+                  easy for me, and I enjoyed it and excelled at it. Splendid.
+                  <br />
+                  <br />
+                </p>
+              </article>
+            </Fade>
+            <Fade right>
+              <article>
+                <img src={award} alt="survey picture" />
+                <h3 className=" text-dark h1">
+                  My First 3 Awards as a Marketer
+                </h3>
+                <p className="h1 text-dark">
+                  When I started working I wanted to do my best and prove my
+                  capabilities, and, indeed, I was Awarded Best Employee for 3
+                  days in a row, in an office of over 30 people. On the fourth
+                  day, I finally took my finger off the tablet and slowed down a
+                  bit to let others get awarded as well and as to not demoralize
+                  my colleagues. Because others need their smoothies too.
+                  <br />
+                  <br />
+                  With my marketing experience and ability to interview people
+                  effectively, I can provide you with testimonials, customized
+                  surveys and qualified leads. In doing so, you close sales as
+                  you put your finger on the pulse of your market, understand
+                  your business better and have leads for followup marketing. By
+                  having that better understanding of your business and market ,
+                  you can, also, improve your product or service and harvest
+                  better business.
+                  <br />
+                  <br />
+                  You can find more about me in the by clicking on 'about me' in
+                  the navigation bar, up top.
+                </p>
+              </article>
+            </Fade>
+            <br />
+            <Bounce bottom>
+              <div className="quote text-light">
+                “My experience with Omar in my work as a restaurant owner has
+                been full of achievement. He was very helpful in my marketing
+                efforts where he took professional pictures of the food and the
+                restaurant. I’ve noticed that Omar helps the business owner
+                reach his/her customers in an excellent way and easily.“
+                <br />
+                <span className="text-muted">
+                  {" "}
+                  - Amal A. Maseer, New Paltz, NY. Owner of Amals Cusine.
+                </span>
+              </div>{" "}
+            </Bounce>
+            <Fade left>
+              <p className="h1 text-dark">
+                <h3 className=" text-dark h1 ">
+                  As an Ambivert, I Can Work In Teams, Alone or One-on-One
+                </h3>{" "}
+                <br />
+                From when I was a salesman driving in a van with a team of
+                salesmen for The Kirby Company selling high-end Vacuum Cleaners
+                in Colorado Springs at the age of 18 years old, to collaborating
+                on software engineering projects via Slack with fellow software
+                developers more recently, There were many situations when I had
+                to work, on a regular basis, in a team environment and
+                collaborate with team members. <br />
+                <br />
+                I am social and love networking with people. I'm easy-going,
+                funny, yet professional and can properly communicate and have
+                excellent people skills. Like the Good Guy Greg of copywriting,
+                I treat every business acquaintance as a human being. I
+                genuinely want your business to succeed and reach its fullest
+                potential and your success matter to me. With a vast amount of
+                social experience, a peaceful mindset, and a friendly attitude,
+                you will enjoy your business operations more.
+                <br />
+                <br />
+              </p>
+            </Fade>
+            <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+              <Bounce>
                 <div
                   className="certificate"
                   target="_blank"
                   id="alisoncertificate"
                   style={{ backgroundImage: `url(${alisoncertificate})` }}
                 ></div>
-              </a>
-              <br />
-              <br />
-              The most notable courses that I’ve completed are:
-              <br />
-              <br />
-              <ul>
-                <li>
-                  <strong>AWAI Copywriting Method</strong>
-                </li>
-                <li>
-                  <strong>Basic Concepts and Techniques For Copywriting</strong>{" "}
-                  by Marcia Yudkin
-                </li>
-                <li>
-                  <strong>Conversion Copywriting 101</strong> by Copyhackers
-                </li>
-                <li>
-                  <strong>Advanced Copywriting Skills and Techniques</strong> by
-                  Marcia Yudkin
-                </li>
-                <li>
-                  <strong>Kopywriting Korse</strong> by Neville Medhora
-                </li>
-              </ul>
-            </p>
-            <br />
-            <article>
+              </Bounce>
+            </a>{" "}
+            <Fade bottom>
               <p className="h1 text-dark">
-                <h3 className=" text-dark h1">Well-Read On Copywriting</h3>{" "}
                 <br />
-                Most copywriters fail because they lack dedication, knowledge
-                and passion. In the past 4 years{" "}
-                <u>
-                  <strong>I’ve read</strong> about <strong>49 books.</strong>
-                </u>{" "}
-                About <strong>15 books on Copywriting</strong>, some others were
-                about <strong>Marketing</strong> in general and others were
-                mostly self-help books.
+                <h3 className=" h1 text-dark">
+                  Taught and Certified with CPD (Continuing Professional
+                  Development) Accreditation
+                </h3>{" "}
                 <br />
-                <br />
-                <img src={books} alt="image of some books I've read" />
-                <h5 className="text-muted">Some books I've read</h5>
+                While I have read many books on Marketing and it’s great to read
+                the best copywriting books of all-time, Knowing how to put this
+                information to practice is the most important thing.
                 <br />
                 <br />
-                You can expect me to apply my knowledge of the following
-                all-time best marketing books in writing your copy:
+                As a copywriter I have completed over 4 courses on Copywriting
+                and Marketing. And I am certified for partaking in Copywriting
+                courses.
+                <br />
+                <br />
+                <br />
+                <br />
+                The courses that I’ve currently have completed are:
                 <br />
                 <br />
                 <ul>
                   <li>
-                    <strong>Influence</strong> by Robert Cialdini
+                    <strong>
+                      Basic Concepts and Techniques For Copywriting
+                    </strong>{" "}
+                    by Marcia Yudkin
                   </li>
                   <li>
-                    <strong>Tested Advertising Methods</strong> by John Caples
+                    <strong>Conversion Copywriting 101</strong> by Copyhackers
                   </li>
                   <li>
-                    <strong>The Adweek Copywrting Handbook </strong>by Joseph
-                    Sugarman
+                    <strong>Advanced Copywriting Skills and Techniques</strong>{" "}
+                    by Marcia Yudkin
                   </li>
                   <li>
-                    <strong>The Ultimate Sales Letter</strong> by Dan Kennedy
-                  </li>
-                  <li>
-                    <strong>Scientific Advertising by</strong> Claude Hopkins
-                  </li>
-                  <li>
-                    <strong>Cashvertising</strong> by Drew Whitman
-                  </li>
-                  <li>
-                    <strong>Save The Cat</strong> by Blake Snyder
-                  </li>
-                  <li>
-                    <strong>Breakthrough Advertising</strong> by Eugene Schwartz
-                  </li>
-                  <li>
-                    <strong>and more.</strong>
+                    <strong>Kopywriting Korse</strong> by Neville Medhora
                   </li>
                 </ul>
               </p>
+            </Fade>
+            <br />
+            <article>
+              <Bounce>
+                <img src={books} alt="image of some books I've read" />
+              </Bounce>
+              <br />
+              <br />
+              <Fade bottom>
+                <p className="h1 text-dark">
+                  <h3 className=" text-dark h1">Well-Read On Copywriting</h3>{" "}
+                  <br />
+                  Most copywriters fail because they lack dedication, knowledge
+                  and passion. In the past 4 years{" "}
+                  <u>
+                    <strong>I’ve read</strong> about <strong>49 books.</strong>
+                  </u>{" "}
+                  About <strong>15 books on Copywriting</strong>, some others
+                  were about <strong>Marketing</strong> in general and others
+                  were mostly self-help books.
+                  <br />
+                  <br />
+                  <h5 className="text-muted">Some books I've read</h5>
+                  <br />
+                  <br />
+                  You can expect me to apply my knowledge of the following
+                  all-time best marketing books in writing your copy:
+                  <br />
+                  <br />
+                  <ul>
+                    <li>
+                      <strong>Influence</strong> by Robert Cialdini
+                    </li>
+                    <li>
+                      <strong>Tested Advertising Methods</strong> by John Caples
+                    </li>
+                    <li>
+                      <strong>The Adweek Copywrting Handbook </strong>by Joseph
+                      Sugarman
+                    </li>
+                    <li>
+                      <strong>The Ultimate Sales Letter</strong> by Dan Kennedy
+                    </li>
+                    <li>
+                      <strong>Scientific Advertising by</strong> Claude Hopkins
+                    </li>
+                    <li>
+                      <strong>Cashvertising</strong> by Drew Whitman
+                    </li>
+                    <li>
+                      <strong>Save The Cat</strong> by Blake Snyder
+                    </li>
+                    <li>
+                      <strong>Breakthrough Advertising</strong> by Eugene
+                      Schwartz
+                    </li>
+                    <li>
+                      <strong>and more.</strong>
+                    </li>
+                  </ul>
+                </p>
+              </Fade>
             </article>
             <article>
-              <img src={coding} alt="Coding bootcamp image" />
               <p className="h1 text-dark">
-                <br />
-                <br />
-                <h3 className=" text-dark h1 ">
-                  Tech Savvy Software Developer
-                </h3>
-                <br />I understand technology. I’ve been software engineering
-                since 14 years old. And,In the year 2022, I’ve completed General
-                Assembly’s <u>Software Engineering Bootcamp.</u> I have a{" "}
-                <a href="https://omarkhalil.netlify.app/" target="_blank">
-                  portfolio website
-                </a>{" "}
-                for web applications I’ve developed. I consistently learn,
-                practice and improve my software development skills.
-                <br />
-                <br />
-                <img src={bootcamp} alt="Coding bootcamp image" />
-                <br />
-                <br />
-                Being a Full Stack Software Engineer, I can develop for the
-                Client-Side and Server-Side of a website. I orient my
-                development learning around entrepreneurship. Having excellent
-                engineering skills helps you build a smarter marketing campaign
-                resulting in better results for your business.
+                <Fade left>
+                  <br />
+                  <br />
+                  <h3 className=" text-dark h1 ">
+                    Optimize Your Business Marketing With a Tech Savvy Software
+                    Developer
+                  </h3>
+                  <img
+                    src={coding}
+                    style={{ float: "left" }}
+                    alt="Coding bootcamp image"
+                  />
+                </Fade>
+                <Zoom>
+                  <br />
+                  <br />
+                  Technology is getting out of hands. So isn't it best to work
+                  with a modern Copywriter who knows tech?
+                  <br />
+                  <br />
+                  I started engineering software since 14 years old by
+                  self-teaching. Then, I took Computer Science classes at New
+                  Paltz High School, to learn even more about software
+                  engineering.
+                  <br />
+                  <br />
+                  In 2022, I’ve completed General Assembly’s Software
+                  Engineering Bootcamp, and you're free to check out my{" "}
+                  <a href="https://omarkhalil.netlify.app/" target="_blank">
+                    portfolio website
+                  </a>{" "}
+                  for software applications I’ve developed.
+                  <br />
+                  <br />
+                  I orient my software development learning around
+                  entrepreneurship and I'm consistently learning new
+                  technologies and development techniques, practicing my skills
+                  and improving my software development abilities.
+                  <br />
+                  <br />
+                </Zoom>
+                <Bounce>
+                  <img src={bootcamp} alt="Coding bootcamp image" />
+                </Bounce>
+                <Fade bottom>
+                  <br />
+                  <br />
+                  Being a Full Stack Software Engineer, I can develop for the
+                  Client-Side and Server-Side of a website. I know how to design
+                  the websites layout, graphics and client-side of the
+                  application as well as the behind the scenes functionality of
+                  the website. And I can also create databases and much more.
+                  <br />
+                  <br />
+                  Even this website is created by me!
+                  <br />
+                  <br />
+                  When you work with such a tech savvy copywriter you can rest
+                  easy knowing they understand the technical mechanics of your
+                  online business to make marketing operations run smoother. As
+                  well as helping you build a smarter, more effective marketing
+                  campaign that matches the best in the industry.
+                </Fade>
               </p>
             </article>
             <br />

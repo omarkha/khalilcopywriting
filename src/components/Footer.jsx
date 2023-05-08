@@ -3,12 +3,13 @@ import facebook from "../media/facebook.png";
 import twitter from "../media/twitter.png";
 import instagram from "../media/instagram.png";
 import linkedin from "../media/linkedin.png";
-import awai from "../media/awai.jpg";
+import alisonCertificate from "../media/alison-certificate.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
+      <hr />
       <div className="container">
         <div className="footercontent">
           <div className="links">
@@ -34,8 +35,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="middle">
-            <h3>Certified by AWAI</h3>
-            <img src={awai} alt="AWAI logo" />
+            <h3>Certified Copywriter.</h3>
+            <img src={alisonCertificate} alt="AWAI logo" />
           </div>
           <div className="socialmedia">
             <Link

@@ -1,68 +1,101 @@
 import React from "react";
-import mypicture from "../media/mypicture2.jpg";
+import mypicture from "../media/mypicture4.jpg";
+import introbg from "../media/bg3.jpg";
 
 import { Link } from "react-router-dom";
+import { Fade } from "react-reveal";
 const Homepage = () => {
   return (
     <div className="homepage">
-      <div className="container bg-dark">
-        <section className="intro">
-          <div className="leftside">
-            <div
-              className="mypicture"
-              style={{ backgroundImage: `url(${mypicture})` }}
-            ></div>
+      <Fade>
+        <div
+          className="home-intro-wrapper"
+          style={{ backgroundImage: `url(${introbg})` }}
+        >
+          <div className="container">
+            <section className="intro">
+              <div className="leftside">
+                <div
+                  className="mypicture"
+                  style={{ backgroundImage: `url(${mypicture})` }}
+                ></div>
+                <div>
+                  <h1 className="myname">
+                    <span className="">Omar S. Khalil</span>
+                    <br />
+                    <span className="text-light">
+                      Copywriter, Software Developer and Entrepreneur
+                    </span>
+                  </h1>
+                </div>
+              </div>
+              <div className="myinfo">
+                <h2 className="display-3 text-light   mb-5">
+                  Effective Marketing For Your Brand New Business
+                  <br />
+                </h2>
+                <Link to="/landingpage" className="button-3">
+                  Click Here to Start
+                </Link>
+              </div>
+            </section>
+          </div>
+        </div>
+      </Fade>{" "}
+      <Fade>
+        <iframe
+          id="home-intro-video"
+          src="https://www.youtube.com/embed/ryz-O13WmqE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </Fade>
+      <div className="container">
+        <section className="homepage-info py-5">
+          <br />
+          <br />
+          <Fade left>
             <div>
-              <h1 className="myname">
-                {" "}
-                Omar S. Khalil <br />{" "}
-                <span className="text-warning h6">
-                  Copywriter, Software Developer and Entrepreneur
-                </span>
-              </h1>
-            </div>
-          </div>
-          <div className="myinfo">
-            <h2 className="display-3 text-light">
-              Top-Notch Copywriting For Your Brand New Business!
-              <br />
-              <Link to="/landingpage" className="button-3">
-                Click Here to Start
-              </Link>
-            </h2>
-          </div>
-        </section>
-        <section className="homepage-info">
+              <h3 className="text-primary subhead">
+                We Provide You The Marketing You Need For Your Business to
+                Compete
+              </h3>
+
+              <p className="h5 text-dark">
+                By writing anything from landing-page copy, to home page copy,
+                to sales letters and more, <br />
+                <strong>Khalil's Marketing</strong> got you covered.
+              </p>
+            </div>{" "}
+          </Fade>
+          <br />
+          <br />{" "}
+          <Fade right>
+            <div>
+              <h3 className="text-primary subhead">Low Budget? No Problem!</h3>
+
+              <p className="h5 text-dark">
+                As a new startup ourselves, we take into consideration the needs
+                and circumstances of all of our clients.
+              </p>
+            </div>{" "}
+          </Fade>
           <br />
           <br />
-          <div>
-            <h3 className="text-warning subhead">
-              We Provide You The Services You Need For Your Business To Succeed
-            </h3>
-            <p className="h5 text-light">
-              By writing anything from landing-page copy, to home page copy, to
-              sales letters and more, <br />
-              <strong>Khalil's Marketing</strong> got you covered.
-            </p>
-          </div>
-          <br />
-          <br />
-          <div>
-            <h3 className="text-warning subhead">Low Budget? No Problem!</h3>
-            <p className="h5 text-light">
-              As a new startup ourselves, we take into consideration the needs
-              and circumstances of all of our clients.
-            </p>
-          </div>
-          <br />
-          <br />
-          <div>
-            <h3 className="text-warning subhead">Unfamiliar with Marketing?</h3>
-            <p className="h5 text-light">
-              We will walk with you step by step to not only get sales but to
-              understand how, why and what makes it happen.
-            </p>
-          </div>
+          <Fade left>
+            <div>
+              <h3 className="text-primary subhead">
+                Unfamiliar with Marketing?
+              </h3>
+
+              <p className="h5 text-dark">
+                We will walk with you step by step to not only get sales but to
+                understand how, why and what makes it happen.
+              </p>
+            </div>{" "}
+          </Fade>
           <br />
           <br />
           <Link to="/landingpage" className="button-3">
