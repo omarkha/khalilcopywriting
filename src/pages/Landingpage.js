@@ -454,11 +454,11 @@ const Landingpage = () => {
           </div>
           <br />
           <div id="offer">
-            <Flip>
+            <Bounce>
               <h3 className="subhead h1 text-success  ">
                 I Have A Special Offer That Suits Your Circumstances
               </h3>
-            </Flip>
+            </Bounce>
             <br />
             <Fade bottom>
               <p className="h1 text-dark">
