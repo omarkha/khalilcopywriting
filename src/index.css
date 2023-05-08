@@ -72,6 +72,7 @@ a:hover {
   width: 34px;
   height: 34px;
   background-size: contain;
+  animation: spinlogo 3s infinite;
 }
 .navbar {
   height: 89px;
@@ -228,6 +229,16 @@ a:hover {
   height: 55px;
   background-size: cover;
   margin: 0 auto;
+  animation: spinlogo 3s infinite;
+}
+
+@keyframes spinlogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .copy h3 {
@@ -475,12 +486,18 @@ article img {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 89px);
+  background-color: rgba(101, 101, 255, 1);
+  background-blend-mode: lighten;
 }
 
 #landingpage-banner .landingpage-logo {
-  background: rgba(255, 255, 255, 0.92);
-  padding: 13px 89px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgb(255, 255, 255, 0.618)
+  );
+  padding: 55px 89px;
   border-radius: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .post {

@@ -23,13 +23,16 @@ const Landingpage = () => {
         >
           <div className="container">
             <div className="landingpage-logo">
-              <div style={{ backgroundImage: `url(${logo})` }}></div>
-              <h1>Khalil's Marketing</h1>
-
               <h2 className="headline h1">
                 This Modern Copywriter is Trained and Certified to Make You
                 Money While You Eat and Sleep
-              </h2>
+              </h2>{" "}
+              <br />
+              <br />
+              <div style={{ backgroundImage: `url(${logo})` }}></div>
+              <h1>Khalil's Marketing</h1>
+              <br />
+              <br />
               <h3>..Scroll Down for More..</h3>
             </div>
           </div>
