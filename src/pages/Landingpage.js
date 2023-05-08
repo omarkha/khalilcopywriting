@@ -16,7 +16,7 @@ import { Bounce, Fade, Flip, Zoom } from "react-reveal";
 const Landingpage = () => {
   return (
     <div className="landingpage">
-      <Zoom>
+      <Fade>
         <div
           id="landingpage-banner"
           style={{ backgroundImage: `url(${banner})` }}
@@ -34,7 +34,7 @@ const Landingpage = () => {
             </div>
           </div>
         </div>
-      </Zoom>
+      </Fade>
       <div className="container">
         <section className="copy">
           <br />
@@ -401,159 +401,196 @@ const Landingpage = () => {
             </article>
             <br />
             <p className="h1 text-dark">
-              <h3 className=" text-dark h1 ">Entrepreneurial Awareness</h3>{" "}
-              <br />
-              I mentioned that I’m also an entrepreneur. But ever since I found
-              my calling, I’ve been very ambitious, optimistic, positive and
-              driven in the years since deciding to be my own boss. I have 100s
-              of business ideas. I’ve written copy for many businesses of mine
-              and I can write copy for just about any business idea.
-              <br />
-              <br /> Robert Kiyosaki suggested in ‘Rich Dad, Poor Dad,’ that
-              working for experience leads to more monetary success than working
-              for money. So when I can make a positive impact on the success of
-              your business, I gain valuable experience. Thus, whatever your
-              business is about, I will go aboce and beyond to provide you with
-              as much money as possible.
+              <Fade left>
+                <h3 className=" text-dark h1 ">
+                  Entrepreneurially Intelligent
+                </h3>{" "}
+              </Fade>
+              <Fade bottom>
+                <br />
+                I have 100s of business ideas. I’ve written copy for many
+                businesses of mine and I can write copy for just about any
+                business idea.
+                <br />
+                <br /> Robert Kiyosaki suggested in ‘Rich Dad, Poor Dad,’ that
+                working for experience leads to more monetary success than
+                working for money. So when I can make a positive impact on the
+                success of your business, I gain valuable experience. Thus,
+                whatever your business is about, I will go aboce and beyond to
+                provide you with as much money as possible.
+              </Fade>
             </p>{" "}
             <br />
             <br />
-            <p className="h1 text-dark">
-              <h3 className="h1 subhead">Bilingual and Articulate</h3>
-              <br />
-              I read, write and speak English fluently. Not only English but
-              also the Arabic language. It might be assumed that non-native
-              English speakers are at a disadvantage. Yet, research shows that
-              being bilingual comes with a bunch of unique strengths. <br />
-              <br />
-              bilingual individuals have been found to outperform monolinguals
-              in problem solving and perceptual focusing. With more tools for
-              self-expression and some unique capabilities, I can write
-              immaculate copy that grabs more attention, inspires more interest,
-              builds more desire and gets more prospects to take action.
-            </p>
+            <Fade left>
+              <p className="h1 text-dark">
+                <h3 className="h1 subhead">Bilingual and Articulate</h3>
+                <br />
+                While I can read, write and speak English fluently, My native
+                language is Arabic. Some people assume that non-native English
+                speakers are not as capable than native speakers. Yet, research
+                shows that being bilingual comes with some exlusive strengths.{" "}
+                <br />
+                <br />
+                Studies have shown that bilingual individuals outperform
+                monolinguals in problem solving and perceptual focusing. With
+                more tools for self-expression and unique capabilities, I can
+                write one-of-a-kind copy that grabs MORE attention, inspires
+                MORE interest, builds MORE desire and gets MORE prospects to
+                take ACTION.
+              </p>
+            </Fade>
             <br />
           </div>
           <br />
           <div id="offer">
-            <h3 className="subhead h1 text-success  ">
-              I can work with any kind of budget
-            </h3>
+            <Flip>
+              <h3 className="subhead h1 text-success  ">
+                I Have A Special Offer That Suits Your Circumstances
+              </h3>
+            </Flip>
             <br />
-            <p className="h1 text-dark">
-              Startup business-owners will be taking advantage of my low-cost
-              services..
-              <br />
-              <br /> ..So if you want converting copy, enter your name and email
-              address to set up an appointment with me as soon as possible.
-              <br />
-              <br />
-              I can work with all kinds of budgets. The most important thing is
-              that you have an interesting product or service. If not we can fix
-              that too!
-              <br />
-              <br />
-              After submitting your name and email address, I will immediately
-              reach back to you with a Questionnaire that helps me understand
-              what your business is about. That way I can talk to you about what
-              we can do in the short and longterm to maximize success. <br />
-              <br />
-              Then we can set up an appointment and I will personally get back
-              to you in order to figure it out either with a phone call, video
-              call, or any other communication method you prefer.
-            </p>
+            <Fade bottom>
+              <p className="h1 text-dark">
+                Startup businesses are taking advantage of my low-cost services.
+                <br />
+                <br />
+                I work with all kinds of budgets. The most important thing is
+                that you have an interesting product or service. If not we can
+                fix that too.
+                <br />
+                <br /> if you want copy that converts prospect into customers,
+                enter your name and email address to set up an appointment with
+                me ASAP.
+                <br />
+                <br />
+                After submitting your name and email address, I will reach back
+                to you immediately via an automated email with a Questionnaire
+                that helps me understand what your business is about.
+                <br />
+                <br />
+                Send me an email back with your answers and I'll discuss with
+                you what we can do to get you sales fast. <br />
+              </p>
+            </Fade>
             <br />
 
             <div>
-              <h6 className=" text-dark h5 p-5">
-                <strong>
-                  What YOU Need To Do To Start Converting Prospects ASAP{" "}
-                </strong>{" "}
-                <br />
-                <br />
+              {" "}
+              <Fade>
+                <div id="specialoffer">
+                  <h5 className="subhead h4 text-dark">
+                    Sign up before <u>June, 1st 2023</u>
+                    <br />
+                    You can schedule the first consultaton
+                    <br /> with me, discussing a plan of action, <br />
+                    <strong>Absolutely FREE</strong>
+                    <br />
+                    <br />I usually charge <s className="text-danger">
+                      $19.99
+                    </s>{" "}
+                    but if you act now you pay{" "}
+                    <u className="text-success">$0.</u> <br />
+                    no credit card required.
+                  </h5>
+                </div>
+              </Fade>
+              <Zoom>
+                <h6 className=" text-dark h5 p-5">
+                  <strong>
+                    What YOU Need To Do To Start Converting Prospects ASAP{" "}
+                  </strong>{" "}
+                </h6>
                 Take Your First Step by answering a few questions about your
                 business idea.
-                <br />
                 <br /> Then we can start to build a mutually beneficial business
-                relationship. <br />
+                relationship.
                 <br />
                 Fill Out This Form and Click on the Submit Button, Now.
-              </h6>
-              <h3 className="h2 text-dark">Pricing</h3>
-              <p className="h4 text-dark mb-5">
-                The price of my copywriting services depends on the amount of
-                words to be written. prices range from $50 up to $500.
-              </p>
-              <div id="specialoffer">
-                <h5 className="subhead h4 text-dark">
-                  If you sign up before <u>June, 1st 2023</u>
-                  <br />
-                  You can schedule a{" "}
-                  <strong>
-                    FREE consultaton with me
-                    <br />
-                  </strong>{" "}
-                  discussing a plan of action.
-                  <br />
-                  usually costs <s className="text-danger">$19.99</s> but if you
-                  act now you pay <u className="text-success">$0.</u> <br />
-                  and no credit card required.
-                </h5>
-              </div>
+              </Zoom>
+              <br />
+              <br />
             </div>
-            <form>
-              <h5 className="subhead h5 text-warning">
-                Act Fast And Reserve an Appointment <br />
-                before My schedule is fully booked
-              </h5>
-              <input type="text" placeholder="Your Full Name" />
-              <input type="text" placeholder="Your Email Address" />
-              <button type="submit" className="button-2">
-                Send Questionnaire
-              </button>
-              <h8 className=" h6 text-warning">Your privacy is protected.</h8>
-            </form>
+            <Bounce>
+              <form>
+                <h5 className="subhead h5 text-warning">
+                  Act Fast before My schedule is fully booked.
+                  <br />
+                  Start with the '5-Questions Email'
+                </h5>
+                <input type="text" placeholder="Your Full Name" />
+                <input type="text" placeholder="Your Email Address" />
+                <button type="submit" className="button-2">
+                  Send Questionnaire
+                </button>
+                <h8 className=" h6 text-muted">
+                  Your privacy is fully protected.
+                </h8>
+              </form>
+            </Bounce>
             <br />
             <br />
           </div>
-          <div className="benefits">
-            <h3 className="text-dark">What do you get when working with me?</h3>
-            <ul>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Certifications.</strong> Having multiple certificates
-                guarantees you reliable copy
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Surveys.</strong> Experienced in Public Opinion
-                Gathering I provide valueable market insights helping you
-                navigate your industry with sharpness.
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Expertise.</strong> With thorough knowledge about
-                marketing you get a never-ending stream of ideas to improve
-                business.
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Modern Marketing.</strong> My knowledge and expertise in
-                Software Development gives you an edge in modern maketing
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Highly Motivated.</strong> A Copywriter who's driven by
-                the desire to improve by providing tangible results for you
-              </li>
-              <li>
-                <AiFillCheckCircle color="yellowgreen" className="checkmark" />
-                <strong>Negotiable Pricing.</strong> In the beginning of
-                business every dollar counts. That's why you get to work with
-                someone who understands your needs.{" "}
-              </li>
-            </ul>
-          </div>
+          <Fade bottom>
+            <div className="benefits">
+              <h3 className="text-dark">
+                What do you get when working with me?
+              </h3>
+              <ul>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Certifications.</strong> Having multiple certificates
+                  guarantees you reliable copy
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Surveys.</strong> Experienced in Public Opinion
+                  Gathering I provide valueable market insights helping you
+                  navigate your industry with sharpness.
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Expertise.</strong> With thorough knowledge about
+                  marketing you get a never-ending stream of ideas to improve
+                  business.
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Modern Marketing.</strong> My knowledge and expertise
+                  in Software Development gives you an edge in modern maketing
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Highly Motivated.</strong> A Copywriter who's driven
+                  by the desire to improve by providing tangible results for you
+                </li>
+                <li>
+                  <AiFillCheckCircle
+                    color="yellowgreen"
+                    className="checkmark"
+                  />
+                  <strong>Negotiable Pricing.</strong> In the beginning of
+                  business every dollar counts. That's why you get to work with
+                  someone who understands your needs.{" "}
+                </li>
+              </ul>
+            </div>
+          </Fade>
         </section>
       </div>
     </div>
