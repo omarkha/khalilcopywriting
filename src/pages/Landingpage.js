@@ -118,7 +118,7 @@ const Landingpage = () => {
                   didn't lose my drive. <br />
                   <br />
                   at 18 years old, my ambitions were higher than the horizon.
-                  Therefore, I move from my small, little town in upstate New
+                  Therefore, I moved from my small, little town in upstate New
                   York to Colorado, to reach the stars.
                   <br />
                   <br />I got on the plane from New York to Colorado with just a
@@ -133,23 +133,23 @@ const Landingpage = () => {
                   at the time. <br />
                   <br /> I worked as a Salesman for The Kirby Company selling
                   high-end Vacuum Cleaners but I did not have the sales
-                  expertise necessary to secure a sufficient income. So, after
-                  three weeks, I moved on, in search of a job with a stable
-                  wage.
+                  expertise necessary to secure a sufficient income geting paid
+                  on commission only. So, after three weeks, I moved on, in
+                  search of a job with a stable wage.
                   <br />
                   <br />
                   That's when I was hired at a marketing company called Black
                   Diamond Outreach, where I went canvassing on the field,
-                  outside going from door-to-door with tablet that had a map and
-                  pinpoints of the locations I was assigned to survey.
+                  outside going from door-to-door with a tablet that had a map
+                  and pinpoints of the locations I was assigned to survey.
                   <br />
                   <br />
-                  As a communicative person, the one thing in Colorado Springs
-                  that made me about 99 times happier at work was the
-                  opportunity to interview about 99 people each day. I chatted
-                  up people while giving them surveys about political issues,
-                  then collecting their names and email addresses. That was very
-                  easy for me, and I enjoyed it and excelled at it. Splendid.
+                  As a communicative person, the one thing that made me about 10
+                  times happier at work was the opportunity to interview about
+                  100 people each day. I chatted up people while giving them
+                  surveys about political issues, then collecting their names
+                  and email addresses. That was very easy for me, and I enjoyed
+                  it and excelled at it. Splendid.
                   <br />
                   <br />
                 </p>
@@ -180,8 +180,8 @@ const Landingpage = () => {
                   you put your finger on the pulse of your market, understand
                   your business better and have leads for followup marketing. By
                   having that better understanding of your business and market ,
-                  you can, also, improve your product or service and harvest
-                  better business.
+                  you can, also, improve your product or service and get paid
+                  better.
                   <br />
                   <br />
                   You can find more about me in the by clicking on 'about me' in
@@ -211,35 +211,29 @@ const Landingpage = () => {
                 </h3>{" "}
                 <br />
                 From when I was a salesman driving in a van with a team of
-                salesmen for The Kirby Company selling high-end Vacuum Cleaners
-                in Colorado Springs at the age of 18 years old, to collaborating
+                salespeople for The Kirby Company demonstrating and selling
+                high-end Vacuum Cleaners in Colorado Springs, to collaborating
                 on software engineering projects via Slack with fellow software
-                developers more recently, There were many situations when I had
-                to work, on a regular basis, in a team environment and
-                collaborate with team members. <br />
+                developers more recently, I've been in several situations where
+                I worked, on a regular basis, in a team environment and
+                collaborated with other people. I enjoy benefiting from the
+                expertise of my colleagues. <br />
                 <br />
                 I am social and love networking with people. I'm easy-going,
                 funny, yet professional and can properly communicate and have
                 excellent people skills. Like the Good Guy Greg of copywriting,
                 I treat every business acquaintance as a human being. I
                 genuinely want your business to succeed and reach its fullest
-                potential and your success matter to me. With a vast amount of
-                social experience, a peaceful mindset, and a friendly attitude,
-                you will enjoy your business operations more.
+                potential. Your success matter to me.
+                <br />
+                <br />
+                You enjoy your business operations more working with someone
+                who's got a vast amount of social experience, a peaceful
+                mindset, and a friendly attitude.
                 <br />
                 <br />
               </p>
             </Fade>
-            <a href="https://alison.com/user/pdf/4698/1" target="_blank">
-              <Bounce>
-                <div
-                  className="certificate"
-                  target="_blank"
-                  id="alisoncertificate"
-                  style={{ backgroundImage: `url(${alisoncertificate})` }}
-                ></div>
-              </Bounce>
-            </a>{" "}
             <Fade bottom>
               <p className="h1 text-dark">
                 <br />
@@ -247,6 +241,20 @@ const Landingpage = () => {
                   Taught and Certified with CPD (Continuing Professional
                   Development) Accreditation
                 </h3>{" "}
+                <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+                  <Bounce>
+                    <div
+                      className="certificate"
+                      target="_blank"
+                      id="alisoncertificate"
+                      style={{
+                        backgroundImage: `url(${alisoncertificate})`,
+                        float: "left",
+                        margin: "34px",
+                      }}
+                    ></div>
+                  </Bounce>
+                </a>{" "}
                 <br />
                 While I have read many books on Marketing and it’s great to read
                 the best copywriting books of all-time, Knowing how to put this
