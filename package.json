@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build": "cd client && rm -rf build && npm install && CI=false npm run build"
+    "build": "cd client && rm -rf build && npm install && CI= npm run build"
   },
   "repository": {
     "type": "git",
