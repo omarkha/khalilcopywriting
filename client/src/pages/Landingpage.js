@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import survey from "../media/survey.jpg";
 import gem from "../media/gem.jpg";
 import alison from "../media/alison.avif";
@@ -12,8 +12,59 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
 import { Link } from "react-router-dom";
 import { Bounce, Fade, Flip, Zoom } from "react-reveal";
+import axios from "axios";
 
 const Landingpage = () => {
+  const [firstname, setFirstname] = useState("");
+  const [lastname, setLastname] = useState("");
+  const [email, setEmail] = useState("");
+  const [fullname, setFullname] = useState("");
+  const [splitnames, setSplitnames] = useState([]);
+  const [formData, setFormData] = useState({});
+  const uri =
+    process.env.NODE_ENV == "development"
+      ? `http://localhost:5000`
+      : "https://khalilmarketing.netlify.app";
+
+  const subscribe = async (e) => {
+    e.preventDefault();
+
+    setNames();
+    setData();
+
+    try {
+      await axios
+        .post(`${uri}/api/subscribers`, {
+          email: email,
+          first_name: firstname,
+          last_name: lastname,
+          full_name: fullname,
+        })
+        .then((res) => {
+          console.log(res);
+        });
+    } catch (err) {
+      console.log("error subscribing function: ", err);
+    }
+  };
+
+  const setNames = () => {
+    setFirstname(fullname.split(" ")[0]);
+    setLastname(fullname.split(" ")[fullname.split(" ").length - 1]);
+
+    console.log(lastname);
+  };
+
+  const setData = () => {
+    setFormData({
+      email: email,
+      first_name: firstname,
+      last_name: lastname,
+      full_name: fullname,
+    });
+    console.log(formData);
+  };
+
   return (
     <div className="landingpage">
       <Fade>
@@ -546,9 +597,29 @@ const Landingpage = () => {
                   <br />
                   Start with the 'The 5-Questions Email'
                 </h5>
-                <input type="text" placeholder="Your Full Name" />
-                <input type="text" placeholder="Your Email Address" />
-                <button type="submit" className="button-2">
+                <input
+                  type="text"
+                  value={fullname}
+                  onChange={(e) => {
+                    setFullname(e.target.value);
+                  }}
+                  placeholder="Your Full Name"
+                />
+                <input
+                  type="text"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
+                  placeholder="Your Email Address"
+                />
+                <button
+                  type="submit"
+                  onClick={(e) => {
+                    subscribe(e);
+                  }}
+                  className="button-2"
+                >
                   Send Questionnaire
                 </button>
                 <h8 className=" h6 text-muted">
