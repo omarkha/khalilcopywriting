@@ -29,10 +29,6 @@ const Landingpage = () => {
               </h2>{" "}
               <br />
               <br />
-              <div style={{ backgroundImage: `url(${logo})` }}></div>
-              <h1>Khalil's Marketing</h1>
-              <br />
-              <br />
               <h3>..Scroll Down for More..</h3>
             </div>
           </div>
@@ -42,6 +38,10 @@ const Landingpage = () => {
         <section className="copy">
           <br />
           <br />
+          <div className="landingpage-logo">
+            <div style={{ backgroundImage: `url(${logo})` }}></div>
+            <h1>Khalil's Marketing</h1>
+          </div>
           <div>
             <Fade left>
               <br />
@@ -464,30 +464,37 @@ const Landingpage = () => {
             <br />
           </div>
           <br />
+          <div>
+            <Link className="h3 bg-warning py-2 px-5" to="/portfolio">
+              Click Here to Check Out My Copywriting Portfolio
+            </Link>
+          </div>
+          <br />
           <div id="offer">
             <Bounce>
               <h3 className="subhead h1 text-success  ">
-                I Have A Special Offer That Suits Your Circumstances
+                I Have A Special Offer That Suits Anyones Circumstances
               </h3>
             </Bounce>
             <br />
             <Fade bottom>
               <p className="h1 text-dark">
-                Startup businesses are taking advantage of my low-cost services.
+                New startup businesses are taking advantage of my low-cost
+                services.
                 <br />
                 <br />
                 I work with all kinds of budgets. The most important thing is
                 that you have an interesting product or service. If not we can
-                fix that too.
+                still make money.
                 <br />
                 <br /> if you want copy that converts prospect into customers,
                 enter your name and email address to set up an appointment with
                 me ASAP.
                 <br />
                 <br />
-                After submitting your name and email address, I will reach back
-                to you immediately via an automated email with a Questionnaire
-                that helps me understand what your business is about.
+                After submitting your name and email address, you'll immediately
+                receive 'The 5-Questions Email' via an automated response. That
+                helps me understand what your business is about.
                 <br />
                 <br />
                 Send me an email back with your answers and I'll discuss with
@@ -537,7 +544,7 @@ const Landingpage = () => {
                 <h5 className="subhead h5 text-warning">
                   Act Fast before My schedule is fully booked.
                   <br />
-                  Start with the '5-Questions Email'
+                  Start with the 'The 5-Questions Email'
                 </h5>
                 <input type="text" placeholder="Your Full Name" />
                 <input type="text" placeholder="Your Email Address" />
