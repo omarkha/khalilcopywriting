@@ -4,7 +4,7 @@ import gem from "../media/gem.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
-import banner from "../media/banner.jpg";
+import banner from "../media/bg3.jpg";
 import books from "../media/books.jpg";
 import award from "../media/award.png";
 import alisoncertificate from "../media/alison-certificate.png";
