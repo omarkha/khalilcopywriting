@@ -24,7 +24,7 @@ const Landingpage = () => {
   const uri =
     process.env.NODE_ENV == "development"
       ? `http://localhost:5000`
-      : "https://khalilmarketing.netlify.app";
+      : "/.lambda/";
 
   const subscribe = async (e) => {
     e.preventDefault();
@@ -34,7 +34,7 @@ const Landingpage = () => {
 
     try {
       await axios
-        .post(`${uri}/api/subscribers`, {
+        .post(`${uri}/subscriber.create`, {
           email: email,
           first_name: firstname,
           last_name: lastname,
