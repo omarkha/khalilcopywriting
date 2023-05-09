@@ -34,8 +34,8 @@ const Homepage = () => {
                   Effective Marketing For Your Brand New Business
                   <br />
                 </h2>
-                <Link to="/landingpage" className="button-3">
-                  Click Here to Start
+                <Link to="/landingpage" id="homeintrobtn" className="button-3">
+                  Start Making Money
                 </Link>
               </div>
             </section>
@@ -98,8 +98,9 @@ const Homepage = () => {
           </Fade>
           <br />
           <br />
+          <p>Click on the button below to...</p>
           <Link to="/landingpage" className="button-3">
-            Click Here To Start
+            Stark Making Money
           </Link>
           <br />
           <br />

@@ -24,8 +24,8 @@ const Landingpage = () => {
           <div className="container">
             <div className="landingpage-logo">
               <h2 className="headline h1">
-                This Modern Copywriter is Trained and Certified to Make You
-                Money While You Eat and Sleep
+                This Tech-Savvy Marketer is Certified to Engineer Your Business
+                Into a Machine Producing Money For You While You Eat and Sleep
               </h2>{" "}
               <br />
               <br />
