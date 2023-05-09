@@ -1,33 +1,55 @@
 {
-  "name": "khalilsmarketing",
-  "version": "1.0.0",
-  "description": "marketing servces website",
-  "main": "server.js",
-  "proxy": "http://localhost:5000",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "build": "cd client && rm -rf build && npm install && CI=false npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/omarkha/khalilcopywriting.git"
-  },
-  "author": "Omar Khalil",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/omarkha/khalilcopywriting/issues"
-  },
-  "homepage": "https://github.com/omarkha/khalilcopywriting#readme",
+  "name": "portfo",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.1.0",
-    "morgan": "^1.10.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "netlify-cli": "^15.0.2",
+    "react": "^18.2.0",
+    "react-axios": "^2.0.6",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "run-p start:**",
+    "start:app": "react-scripts start",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build": "run-p build:**",
+    "build:app": "react-scripts build",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "dotenv": "^16.0.3",
+    "http-proxy-middleware": "^2.0.6",
+    "netlify-lambda": "^2.0.16",
+    "npm-run-all": "^4.1.5"
   }
 }
